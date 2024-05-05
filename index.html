@@ -5,23 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroTheWhiteShadow</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: "Comic Sans MS", "Quicksand", "Comfortaa", sans-serif;
+        }
+    </style>
 </head>
 <body>
-    irgendwas
-    <br>
-    Hi
-    <br>
-    <img src="">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-9-circle" viewBox="0 0 16 16">
-        <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.223 4.146c-1.593 0-2.425-.89-2.52-1.798h1.296c.1.357.539.72 1.248.72 1.36 0 1.88-1.353 1.834-3.023h-.076c-.235.627-.873 1.184-1.934 1.184-1.395 0-2.566-.961-2.566-2.666 0-1.711 1.242-2.731 2.87-2.731 1.512 0 2.971.867 2.971 4.014 0 2.836-1.02 4.3-3.123 4.3m.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z"/>
-      </svg>
-    <h1></h1>
-    <h2></h2>
-    <div class="text-bold">this is bold</div>
-    <p></p>
-    <img src="img/29.jpg">
+    <div class="container">
+        <h1 class="mt-5">irgendwas</h1>
+        <br>
+        Hi
+        <br>
+        <img src="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-9-circle" viewBox="0 0 16 16">
+            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.223 4.146c-1.593 0-2.425-.89-2.52-1.798h1.296c.1.357.539.72 1.248.72 1.36 0 1.88-1.353 1.834-3.023h-.076c-.235.627-.873 1.184-1.934 1.184-1.395 0-2.566-.961-2.566-2.666 0-1.711 1.242-2.731 2.87-2.731 1.512 0 2.971.867 2.971 4.014 0 2.836-1.02 4.3-3.123 4.3m.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z"/>
+        </svg>
+        <h1></h1>
+        <h2></h2>
+        <div class="fw-bold" id="hallo">this is bold</div>
+        <p></p>
+        <img class="img-fluid" src="img/29.jpg">
 
-    <p>Hallo, ich bin Nils!</p>
-    <p>Das ist ein weiterer Absatz</p>
+        <p>Hallo, ich bin Nils!</p>
+        <p>Das ist ein weiterer Absatz</p>
+        <hr class="my-5">
+        <h1>Welcome to the JavaScript Goblin Party!</h1>
+        <div class="btn btn-outline-danger" id="magicButton">Click me!</div>
+    </div>
+
+    <script>
+        //document.getElementById("hallo").innerHTML = "Hallo, ich bin Nils!";
+        
+
+        const texts = [
+            `うぃーあーざじゃぱにーずごぶりん
+どぅゆぅはぶけいのたかとびおにごろし
+あいあむえぇとじゃぱにーずごぶりん
+あかあおきいろのおにずあんどもあ
+はいびびっとしゃとるーずぐりーんおに
+せくしーみでぃあむばいおれっとおに
+むらさきだいだいしゃくなげおに
+らららいえるかなとぅないひゃっきやぎょう
+`,
+            `はいてんしょんじゃぱにーずごぶりん
+どらんくはっぴーどんどんへべれけ
+あいあむえぇとじゃぱにーずごぶりん
+れつごーつきみだうたえやさわげや
+ふろしきつつんでしゃるうぃーなんちゃら
+ひともあやかしもしゃくにほしうかべ
+くるしゅうないぞくるしゅうないぞ
+ぶれいくあうとでぶれいこう`,
+            `夕闇がこの場所を包むから
+今宵の肴に待ち惚け
+繰り返すまだかなもういいよ
+華密恋が空に揺ぐ
+`,
+            `人は皆誰しもが非力だと
+里に伝わるはカタシハヤ
+拳で問うエカセニクリニ
+後はもう忘れ物`,
+            `いつか見たあの月がまた覗くから
+今宵も宴でさて舞い踊れ
+きらり光り瞬き消えて
+夜明けはもうすぐそこ`,
+            `夕闇がこの場所を包むから
+今宵の肴に待ち惚け
+繰り返すまだかなもういいよ
+華密恋が空に揺ぐ
+`,
+            `（えーこれより鬼ヶ島国際鬼サミットを開会致します。
+昨年度多くの負傷者を出し、角がかける程度の被害が
+出ている豆腐ハンバーグ問題につきまして
+なまはげ委員会主導の下
+「大豆　ダメ・絶対」キャンペーンを実施致しまして、
+国民の鬼の皆様が間違えて摂取せぬよう、こちらの
+方針にてお知らせしていきたいと考えております）`,
+            `今日も夜の帳が降りるから
+今宵の肴に待ち惚け
+ありふれた夕焼け亜麻色に
+華密恋が空に揺ぐ
+`,
+            `人は皆誰しもが非力だと
+里に伝わるはカタシハヤ
+拳で問うエカセニクリニ
+後はもう忘れ物
+`,
+            `いつか見たあの月がまた覗くから
+今宵も宴でさて舞い踊れ
+きらり光り瞬き消えて
+夜明けはもうすぐそこ`,
+            `今日も夜の帳が降りるから
+今宵の肴に待ち惚け
+ありふれた夕焼け亜麻色に
+華密恋が空に揺ぐ
+`,
+            `夕闇がこの場所を包むから
+今宵の肴に待ち惚け
+繰り返すまだかなもういいよ
+華密恋が空に揺ぐ
+`,
+            `人は皆誰しもが非力だと
+里に伝わるはカタシハヤ
+拳で問うエカセニクリニ
+後はもう忘れ物`
+        ];
+
+        // Here's where we unleash the goblin magic!
+        document.getElementById('magicButton').addEventListener('click', function() {
+            let index = 0;
+
+            while (true) {
+                //alert('You have the right to remain silent. Anything you say can be used against you in court. You have the right to talk to a lawyer for advice before we ask you any questions. You have the right to have a lawyer with you during questioning. If you cannot afford a lawyer, one will be appointed for you before any questioning if you wish. If you decide to answer questions now without a lawyer present, you have the right to stop answering at any time.');
+                alert(texts[index]);
+                index = (index + 1) % texts.length; // Move to next index, looping back to 0 if reached end
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
