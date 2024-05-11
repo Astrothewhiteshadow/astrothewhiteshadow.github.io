@@ -11,14 +11,26 @@
             font-family: "Comic Sans MS", "Quicksand", "Comfortaa", sans-serif;
             color: #8717f0;
         }
+    
         .steam-app {
             display: inline-grid;
-        } 
+        }
+    
+        .web-button img {
+            margin: .2em .1em;
+            width: auto;
+            height: 62px;
+            image-rendering: pixelated;
+        }
+    
+        .web-button:hover img {
+            filter: drop-shadow(1px 1px 0px #00bc8c) drop-shadow(-1px -1px 0px #00bc8c) drop-shadow(1px -1px 0px #00bc8c) drop-shadow(-1px 1px 0px #00bc8c);
+        }
     </style>
 </head>
 <body>
-    <div class="container text-center">
-        <h1 class="mt-5">irgendwas</h1>
+    <div class="container text-center my-5">
+        <h1>irgendwas</h1>
         <h2>Web design is my passion </h2>
         <br>
         Hi
@@ -37,7 +49,7 @@
         <p>Das ist ein weiterer Absatz</p>
         <hr class="my-5">
         
-        <div>
+        <div class="my-3">
             <steam-app appid="1451940"></steam-app> 
             <steam-app appid="774171"></steam-app>
             <steam-app appid="893180"></steam-app>
@@ -47,9 +59,9 @@
         </div>
 
         <a class="web-button" href="https://nalsai.de"><img src="https://nalsai.de/img/nalsai.de.png" alt="nalsai.de button"></a> 
-               
-        <h1>Welcome to the JavaScript Goblin Party!</h1>
-        <div class="btn btn-outline-danger" id="magicButton">Click me!</div>
+        <a class="web-button"  href="https://astrothewhiteshadow.github.io/"><img src="img/button.png" alt="AstroTheWhiteShadow Button"></a>     
+        <h1 class="mt-5">Welcome to the JavaScript Goblin Party!</h1>
+        <div class="btn btn-outline-danger mt-3 py-5 px-5" id="magicButton">Click me!</div>
     </div>
 
 
