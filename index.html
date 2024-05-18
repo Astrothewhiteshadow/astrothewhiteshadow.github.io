@@ -26,7 +26,7 @@
         .web-button:hover img {
             filter: drop-shadow(1px 1px 0px #00bc8c) drop-shadow(-1px -1px 0px #00bc8c) drop-shadow(1px -1px 0px #00bc8c) drop-shadow(-1px 1px 0px #00bc8c);
         }
-
+        
 
         .funny-button img {
             margin: .2em .1em;
@@ -45,6 +45,46 @@
         <h1>irgendwas</h1>
         <h2>Web design is my passion </h2>
         <br>
+        <a class="funny-button"><img src="img/Buttons/1.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/2.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/3.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/4.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/5.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/6.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/7.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/8.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/konata.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/mangamaisanime.gif" alt="silly"></a>^
+        <a class="funny-button"><img src="img/Buttons/miku.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/notall.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/nya2.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/ostan.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/plasticlove.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/proud_of_my_son.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/sunaneko.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/tranarchy.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/transnow2.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/tummy.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/underwear.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/zettai.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button112.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button126.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button249.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button24.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button253.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button267.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button367.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button377.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button448.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button450.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button489.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button49.png" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button66.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button58.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button8.gif" alt="silly"></a>
+        <a class="funny-button"><img src="img/Buttons/button.gif" alt="silly"></a>
+
+
         <div id="FortuneCookieTextDisplay">
         
         </div>
@@ -72,14 +112,18 @@
 
         <a class="web-button" href="https://nalsai.de"><img src="https://nalsai.de/img/button.png" alt="nalsai.de button"></a> 
         <a class="web-button"  href="https://astrothewhiteshadow.github.io/"><img src="img/button.png" alt="AstroTheWhiteShadow Button"></a> 
-        <a class="funny-button"><img src="img/1.gif" alt="silly"></a>
         <h1 class="mt-5">Welcome to the JavaScript Goblin Party!</h1>
         <div class="btn btn-outline-danger mt-3 py-5 px-5" id="magicButton">Click me!</div>
     </div>
     
-    <script>
-        function Fortune() {
-        const FortuneCookie = [
+   <script>
+         async function Fortune() {
+        
+        /*    const response = await fetch("https://inspirobot.me/api?generateFlow=1");
+            const movies = await response.json();
+            console.log(movies);
+        */
+         const FortuneCookie = [
             "Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt.",
             "Das Glück liegt oft in kleinen Dingen.",
             "Folge deinem Herzen, es kennt den Weg.",
@@ -183,8 +227,11 @@
         ]
      index = Math.floor(Math.random() * FortuneCookie.length);
         document.getElementById("FortuneCookieTextDisplay").innerHTML = FortuneCookie[index];
+        
         }
+
     </script>
+
     <script>
         //document.getElementById("hallo").innerHTML = "Hallo, ich bin Nils!";
 
