@@ -33,8 +33,12 @@
         <h1>irgendwas</h1>
         <h2>Web design is my passion </h2>
         <br>
+        <div id="FortuneCookieTextDisplay">
+        
+        </div>
         Hi
         <br>
+        <a class="btn btn-primary" onclick="Fortune()">Lucky luck luck</a>
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-9-circle" viewBox="0 0 16 16">
             <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.223 4.146c-1.593 0-2.425-.89-2.52-1.798h1.296c.1.357.539.72 1.248.72 1.36 0 1.88-1.353 1.834-3.023h-.076c-.235.627-.873 1.184-1.934 1.184-1.395 0-2.566-.961-2.566-2.666 0-1.711 1.242-2.731 2.87-2.731 1.512 0 2.971.867 2.971 4.014 0 2.836-1.02 4.3-3.123 4.3m.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z"/>
         </svg>
@@ -59,8 +63,115 @@
         <h1 class="mt-5">Welcome to the JavaScript Goblin Party!</h1>
         <div class="btn btn-outline-danger mt-3 py-5 px-5" id="magicButton">Click me!</div>
     </div>
-
-
+    
+    <script>
+        function Fortune() {
+        const FortuneCookie = [
+            "Eine Reise von tausend Meilen beginnt mit einem einzigen Schritt.",
+            "Das Glück liegt oft in kleinen Dingen.",
+            "Folge deinem Herzen, es kennt den Weg.",
+            "Eine neue Herausforderung bringt neue Möglichkeiten.",
+            "Der Erfolg kommt zu denen, die daran glauben.",
+            "Jeder Tag ist ein Geschenk, nutze ihn weise.",
+            "Vertrauen ist der Schlüssel zu allen Türen.",
+            "Ein Lächeln öffnet Herzen.",
+            "Geduld bringt Rosen.",
+            "Veränderungen bedeuten Wachstum.",
+            "Dein Mut wird belohnt werden.",
+            "Die beste Zeit ist jetzt.",
+            "Freunde sind der Schatz des Lebens.",
+            "Glaube an Wunder, sie geschehen jeden Tag.",
+            "Jeder Moment zählt.",
+            "Sei du selbst, alle anderen gibt es schon.",
+            "Ein neuer Anfang wartet auf dich.",
+            "Jeder Tag ist eine neue Chance.",
+            "Sei dankbar für das, was du hast.",
+            "Die Liebe wird dir neue Türen öffnen.",
+            "Lebe im Hier und Jetzt.",
+            "Wer wagt, gewinnt.",
+            "Kleine Taten können Großes bewirken.",
+            "Du bist der Architekt deines Lebens.",
+            "Veränderungen bringen frischen Wind.",
+            "Lass die Vergangenheit los und schau nach vorn.",
+            "Erfolg ist das Ergebnis harter Arbeit.",
+            "Glaube an deine Träume.",
+            "Dein inneres Licht strahlt am hellsten.",
+            "Jeder Tag birgt eine neue Möglichkeit.",
+            "Genieße die kleinen Freuden des Lebens.",
+            "Gute Dinge kommen zu denen, die warten.",
+            "Dein Mut wird belohnt werden.",
+            "Die Zukunft ist, was du daraus machst.",
+            "Lächle und die Welt lächelt zurück.",
+            "Die Liebe findet dich, wenn du es am wenigsten erwartest.",
+            "Erfolge entstehen aus kleinen Schritten.",
+            "Achte auf dein Bauchgefühl.",
+            "Die besten Dinge im Leben sind kostenlos.",
+            "Jeder Weg beginnt mit dem ersten Schritt.",
+            "Vertrauen ist der Anfang von allem.",
+            "Ein freundliches Wort kann Wunder wirken.",
+            "Sei offen für neue Erfahrungen.",
+            "Dein Herz kennt den Weg.",
+            "Ergreife die Gelegenheit beim Schopf.",
+            "Das Leben ist zu kurz für negative Gedanken.",
+            "Deine Träume sind es wert, verfolgt zu werden.",
+            "Jeder neue Tag ist ein unbeschriebenes Blatt.",
+            "Lass dich von der Schönheit des Lebens inspirieren.",
+            "Geduld ist eine Tugend.",
+            "Der Erfolg kommt zu denen, die daran glauben.",
+            "Ein positiver Geist zieht positive Dinge an.",
+            "Sei dankbar für die kleinen Dinge im Leben.",
+            "Das Glück findet dich, wenn du es am wenigsten erwartest.",
+            "Veränderungen sind der Anfang von etwas Neuem.",
+            "Vertrauen in dich selbst ist der Schlüssel zum Erfolg.",
+            "Jeder Tag birgt neue Möglichkeiten.",
+            "Sei du selbst und vertraue darauf, dass du genug bist.",
+            "Die besten Abenteuer beginnen mit einem Schritt ins Unbekannte.",
+            "Glück ist, wenn Vorbereitung auf Gelegenheit trifft.",
+            "Lass dich von deinen Träumen leiten.",
+            "Ein freundliches Herz zieht Freundlichkeit an.",
+            "Deine Zukunft wird von dem bestimmt, was du heute tust.",
+            "Sei offen für die Wunder des Lebens.",
+            "Jeder Moment ist eine neue Chance.",
+            "Glaube an die Magie des Anfangs.",
+            "Ein positiver Geist schafft positive Ergebnisse.",
+            "Lass dein Licht hell strahlen.",
+            "Die besten Dinge im Leben kommen unerwartet.",
+            "Vertraue auf den Fluss des Lebens.",
+            "Du bist stärker als du denkst.",
+            "Jeder Tag ist eine neue Gelegenheit.",
+            "Deine Träume sind es wert, verfolgt zu werden.",
+            "Sei dankbar für die Reise, nicht nur das Ziel.",
+            "Veränderungen bringen neue Möglichkeiten.",
+            "Lass die Vergangenheit los und schaue nach vorn.",
+            "Erfolg ist das Ergebnis von harter Arbeit.",
+            "Glaube an deine Fähigkeiten.",
+            "Dein inneres Licht strahlt am hellsten.",
+            "Jeder Tag birgt eine neue Möglichkeit.",
+            "Genieße die kleinen Freuden des Lebens.",
+            "Gute Dinge kommen zu denen, die warten.",
+            "Dein Mut wird belohnt werden.",
+            "Die Zukunft ist, was du daraus machst.",
+            "Lächle und die Welt lächelt zurück.",
+            "Die Liebe findet dich, wenn du es am wenigsten erwartest.",
+            "Erfolge entstehen aus kleinen Schritten.",
+            "Achte auf dein Bauchgefühl.",
+            "Die besten Dinge im Leben sind kostenlos.",
+            "Jeder Weg beginnt mit dem ersten Schritt.",
+            "Vertrauen ist der Anfang von allem.",
+            "Ein freundliches Wort kann Wunder wirken.",
+            "Sei offen für neue Erfahrungen.",
+            "Dein Herz kennt den Weg.",
+            "Ergreife die Gelegenheit beim Schopf.",
+            "Das Leben ist zu kurz für negative Gedanken.",
+            "Deine Träume sind es wert, verfolgt zu werden.",
+            "Jeder neue Tag ist ein unbeschriebenes Blatt.",
+            "Lass dich von der Schönheit des Lebens inspirieren.",
+            "Geduld ist eine Tugend."
+        ]
+     index = Math.floor(Math.random() * FortuneCookie.length);
+        document.getElementById("FortuneCookieTextDisplay").innerHTML = FortuneCookie[index];
+        }
+    </script>
     <script>
         //document.getElementById("hallo").innerHTML = "Hallo, ich bin Nils!";
 
