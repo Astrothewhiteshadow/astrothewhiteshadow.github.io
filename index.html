@@ -39,12 +39,51 @@
             filter: drop-shadow(1px 1px 0px #00bc8c) drop-shadow(-1px -1px 0px #00bc8c) drop-shadow(1px -1px 0px #00bc8c) drop-shadow(-1px 1px 0px #00bc8c);
         }
 
+          .btn-adwaita-primary {
+            --bs-btn-color: #fff;
+            --bs-btn-bg: #3584e4;
+            --bs-btn-border-color: #3584e4;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg: #78aeed;
+            --bs-btn-hover-border-color: #78aeed;
+            --bs-btn-focus-shadow-rgb: 13,110,253;
+            --bs-btn-active-color: #fff;
+            --bs-btn-active-bg: #2a6ab6;
+            --bs-btn-active-border-color: #2a6ab6;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #2a6ab6;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #0d6efd;
+        }
+
+        .btn-pink-primary {
+            --bs-btn-color: #000000;
+            --bs-btn-bg: #9d1246;
+            --bs-btn-border-color: #9d1246;
+            --bs-btn-hover-color: #000000;
+            --bs-btn-hover-bg: #c41154;
+            --bs-btn-hover-border-color: #c41154;
+            --bs-btn-focus-shadow-rgb: 255,105,180;
+            --bs-btn-active-color: #000000;
+            --bs-btn-active-bg: #d8135c;
+            --bs-btn-active-border-color: #d8135c;
+            --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+            --bs-btn-disabled-color: #d35977;
+            --bs-btn-disabled-bg: transparent;
+            --bs-btn-disabled-border-color: #d35977;
+        }
+
         .card {
-         display: inline-block; width: 100px; height: 150px; border: 1px solid #000; margin: 10px; 
+            display: inline-block;
+            width: 100px; 
+            height: 150px; 
+            border: 1px solid #000; 
+            margin: 10px; 
         }
         
         .card img {
-         width: 100%; height: auto; 
+            width: 100%; 
+         height: auto; 
         }
 
     </style>
@@ -54,6 +93,7 @@
         <h1>irgendwas</h1>
         <h2>Web design is my passion </h2>
         <br>
+        <div class="container text-warning">
         <a class="funny-button"><img src="img/Buttons/1.gif" alt="silly"></a>
         <a class="funny-button"><img src="img/Buttons/2.gif" alt="silly"></a>
         <a class="funny-button"><img src="img/Buttons/3.gif" alt="silly"></a>
@@ -92,14 +132,14 @@
         <a class="funny-button"><img src="img/Buttons/button58.gif" alt="silly"></a>
         <a class="funny-button"><img src="img/Buttons/button8.gif" alt="silly"></a>
         <a class="funny-button"><img src="img/Buttons/button.gif" alt="silly"></a>
-
+        </div>
 
         <div id="FortuneCookieTextDisplay">
         
         </div>
         Hi
         <br>
-        <a class="btn btn-primary" onclick="Fortune()">Lucky luck luck</a> 
+        <a class="btn btn-pink-primary" onclick="Fortune()">Lucky luck luck</a> 
         <br>
 
         <h1>Tarot Lesung</h1>
@@ -107,11 +147,8 @@
         <div id="card2" class="card"><img src="" alt="Karte 2"></div>
         <div id="card3" class="card"><img src="" alt="Karte 3"></div>
         <br><br><br>
-        <button onclick="drawCards()">Ziehe Karten</button>
+        <button class="btn btn-pink-primary" onclick="drawCards()">Ziehe Karten</button>
         <br>
-        
-        <script src="tarot.js"></script>
-
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-9-circle"
             viewBox="0 0 16 16">
             <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-8.223 4.146c-1.593 0-2.425-.89-2.52-1.798h1.296c.1.357.539.72 1.248.72 1.36 0 1.88-1.353 1.834-3.023h-.076c-.235.627-.873 1.184-1.934 1.184-1.395 0-2.566-.961-2.566-2.666 0-1.711 1.242-2.731 2.87-2.731 1.512 0 2.971.867 2.971 4.014 0 2.836-1.02 4.3-3.123 4.3m.118-3.972c.808 0 1.535-.528 1.535-1.594s-.668-1.676-1.56-1.676c-.838 0-1.517.616-1.517 1.659 0 1.072.708 1.61 1.54 1.61Z"/>
@@ -342,6 +379,7 @@
             }
         });
     </script>
+    <script async src="tarot.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://www.steamwidgets.net/api/resource/query?type=js&module=app&version=v1"></script>
 </body>
