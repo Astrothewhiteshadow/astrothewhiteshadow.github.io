@@ -4,6 +4,7 @@
             color: #8717f0;
         }
 
+        
         .steam-app {
             display: inline-grid;
             background-color: #000000 !important;
@@ -24,6 +25,7 @@
             font-family: inherit !important;
 
         }
+        
 
         .web-button img {
             margin: .2em .1em;
