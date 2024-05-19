@@ -21,7 +21,9 @@
 
         .steam-app-title-left-name,
         .steam-app-description,
-        .steam-app-footer-author {
+        .steam-app-footer-author
+/*  ??? .steam-app-footer-button */ 
+        {
             font-family: inherit !important;
 
         }
@@ -84,6 +86,13 @@
             --bs-btn-disabled-border-color: #d35977;
         }
 
+        .card-container {
+            display: inline-block;
+            width: 150px;
+            text-align: center;
+            margin: 10px;
+        }
+
         .card {
             display: inline-block;
             width: 200px;
@@ -95,4 +104,9 @@
         .card img {
             width: 100%;
             height: auto;
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 0.9em;
         }
