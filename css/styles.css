@@ -110,3 +110,7 @@
             margin-top: 10px;
             font-size: 0.9em;
         }
+
+        .reversed img {
+            transform: rotate(180deg);
+        }
