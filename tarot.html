@@ -11,7 +11,8 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg">
+<div class="container text-center my-5">
+    <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">astrothewhiteshadow</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -46,25 +47,33 @@
         TAROT
     </h1>
     <div id="Tarot" class="py-5">
-        <div id="tarot-cards">
-            <div class="card" id="past">
+        <div id="tarot-cards" class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <div class="tarot-card" id="past">
                 <h2>Die Vergangenheit</h2>
                 <img src="" alt="Tarot Card">
                 <p></p>
             </div>
-            <div class="card" id="present">
+            </div>
+            <div class="col">
+            <div class="tarot-card" id="present">
                 <h2>Die Gegenwart</h2>
                 <img src="" alt="Tarot Card">
                 <p></p>
             </div>
-            <div class="card" id="future">
-                <h2>Die Zukunft</h2>
+            </div>
+            <div class="col align-content-center">
+            <div class="tarot-card" id="future">
+                <h2>Die <br> Zukunft</h2>
                 <img src="" alt="Tarot Card">
                 <p></p>
+            </div>
             </div>
         </div>
         <button class="btn btn-purple-primary" onclick="performReading()">Ziehe Karten</button>
     </div>
+</div>
 <script src="js/tarot.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

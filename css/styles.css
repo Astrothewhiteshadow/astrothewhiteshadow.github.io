@@ -4,7 +4,16 @@
             color: #8717f0;
         }
 
-        
+        .tarot-card {
+            width: 200px;
+            height: 666px;
+        }
+
+        .tarot-card img {
+            width: 100%;
+            height: auto;
+        }
+
         .steam-app {
             display: inline-grid;
             background-color: #000000 !important;
@@ -89,25 +98,7 @@
             --bs-btn-disabled-border-color: #9f6dcd;
         }
 
-        .card-container {
-            display: inline-block;
-            width: 150px;
-            text-align: center;
-            margin: 10px;
-        }
-
-        .card {
-            display: inline-block;
-            width: 200px;
-            height: auto;
-            border: 1px solid #000;
-            margin: 10px;
-        }
-
-        .card img {
-            width: 100%;
-            height: auto;
-        }
+        
 
         .description {
             margin-top: 10px;
