@@ -110,15 +110,15 @@ body {
 
 .tarot-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 30px;
-    max-width: 660px; /* tarot-card width * 3 + gap * 2 */
+    max-width: 1260px; /* tarot-card width * 3 + gap * 2 */
     margin: 0 auto;
 }
 
 .tarot-card {
-    width: 200px;
-    height: 500px;
+    width: 400px;
+    height: 1000px;
 }
 
 .tarot-card img {
