@@ -1,198 +1,198 @@
 // Liste der Tarot-Karten und zugehöriger Bilddateien
 const tarotDeck = [
     { name: 'The Fool', image: 'js/img/tarot/fool.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Beginnings that shaped your journey, innocence that led to new experiences.",
+        present: "Embracing spontaneity and adventure, taking a leap of faith.",
+        future: "New opportunities on the horizon, a fresh start awaits.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Magician', image: 'js/img/tarot/magician.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Utilizing your skills and talents, early manifestations of your desires",
+        present: "Harnessing your personal power and resourcefulness, creating your reality",
+        future: "Opportunities to manifest your goals, inspired action will lead to success.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The High Priestess', image: 'js/img/tarot/highpriestess.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Moments of introspection and intuitive insights, uncovering hidden truths.",
+        present: "Trusting your intuition and inner wisdom, embracing the unknown.",
+        future: "Deepening your spiritual knowledge, hidden insights will come to light.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Empress', image: 'js/img/tarot/empress.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Nurturing relationships and creativity, experiences of abundance.",
+        present: "Embracing your femininity and nurturing aspects, enjoying life's pleasures.",
+        future: "Growth and abundance, potential for new projects or relationships.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Emperor', image: 'js/img/tarot/emperor.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Establishing structure and order, taking on leadership roles.",
+        present: "Asserting authority and control, maintaining stability.",
+        future: "Building a solid foundation for future success, leadership opportunities.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Hierophant', image: 'js/img/tarot/hierophant.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Adhering to traditions and beliefs, early guidance and education.",
+        present: "Seeking spiritual wisdom and counsel, embracing conventional values.",
+        future: "Opportunities for spiritual growth, potential for teaching or mentoring.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Lovers', image: 'js/img/tarot/lovers.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Significant relationships and choices that shaped your path.",
+        present: "Harmonious partnerships and love, making value-based decisions.",
+        future: "Deepening connections, important choices regarding relationships.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Chariot', image: 'js/img/tarot/chariot.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Overcoming challenges through determination, past victories.",
+        present: "Harnessing willpower and control, moving forward with confidence.",
+        future: "Success through focus and determination, potential for travel or progress.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Justice', image: 'js/img/tarot/justice.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Experiences of fairness and truth, past decisions and their consequences.",
+        present: "Seeking justice and balance, making fair decisions.",
+        future: "Future outcomes will be just and fair, potential legal matters.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Hermit', image: 'js/img/tarot/hermit.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Periods of introspection and solitude, seeking inner guidance.",
+        present: "Taking time for self-reflection and spiritual insight, withdrawal.",
+        future: "Continued introspection, potential for enlightenment and wisdom.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Wheel of Fortune', image: 'js/img/tarot/wheeloffortune.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Significant turning points and cycles, experiences of fate.",
+        present: "Embracing change and cycles, recognizing the role of destiny.",
+        future: "Positive shifts and opportunities, a new cycle beginning.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Strength', image: 'js/img/tarot/strength.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Demonstrating courage and resilience, overcoming past obstacles.",
+        present: "Balancing inner strength with compassion, mastering self-control.",
+        future: "Facing future challenges with courage, strength will lead to success.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Hanged Man', image: 'js/img/tarot/hangedman.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Moments of surrender and letting go, gaining new perspectives.",
+        present: "Embracing pause and contemplation, seeing things differently.",
+        future: "Potential for transformation through surrender, new insights ahead.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Death', image: 'js/img/tarot/death.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Endings and transformations, significant changes in your life.",
+        present: "Embracing change and letting go, transformative processes.",
+        future: "New beginnings after endings, profound transformation awaits.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Temperance', image: 'js/img/tarot/temperance.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Periods of balance and moderation, learning patience.",
+        present: "Seeking harmony and balance, practicing moderation.",
+        future: "Continued balance and harmony, potential for healing and peace.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Devil', image: 'js/img/tarot/devil.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Facing temptations and attachments, past experiences of restriction.",
+        present: "Recognizing and breaking free from unhealthy patterns, confronting fears.",
+        future: "Opportunities to overcome limitations, potential for liberation.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Tower', image: 'js/img/tarot/tower.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Sudden upheavals and revelations, past disruptions.",
+        present: "Embracing change and transformation, dealing with chaos.",
+        future: "Potential for sudden changes and insights, rebuilding after upheaval.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Star', image: 'js/img/tarot/star.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Moments of hope and renewal, past inspirations.",
+        present: "Embracing optimism and faith, healing and renewal.",
+        future: "Continued hope and inspiration, potential for dreams to come true.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Moon', image: 'js/img/tarot/moon.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Facing fears and illusions, past experiences of uncertainty.",
+        present: "Trusting intuition and dealing with subconscious issues, confronting fears.",
+        future: "Uncovering hidden truths, potential for emotional clarity.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The Sun', image: 'js/img/tarot/sun.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Periods of joy and success, positive past experiences.",
+        present: "Embracing positivity and vitality, enjoying success.",
+        future: "Continued success and happiness, potential for joy and fulfillment.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Judgement', image: 'js/img/tarot/judgement.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Moments of self-reflection and judgement, past awakenings.",
+        present: "Embracing rebirth and inner calling, evaluating your path.",
+        future: "Opportunities for absolution and renewal, potential for transformative decisions.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'The World', image: 'js/img/tarot/world.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: " Completing cycles and achieving goals, past accomplishments.",
+        present: "Embracing integration and wholeness, celebrating success.",
+        future: "Continued completion and fulfillment, potential for new journeys.",
             reversed: {
                 past: "",
                 present: "",
@@ -200,9 +200,9 @@ const tarotDeck = [
             } } },
 
     { name: 'Ace of Cups', image: 'js/img/tarot/acecups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "New emotional beginnings, past experiences of love and creativity.",
+        present: "Embracing new relationships and emotional experiences, feeling fulfilled.",
+        future: "Potential for new love and creative opportunities, emotional abundance.",
             reversed: {
                 past: "",
                 present: "",
@@ -867,6 +867,11 @@ function performReading() {
     const pastCard = drawCard();
     const presentCard = drawCard();
     const futureCard = drawCard();
+    
+    while (pastCard.name === presentCard.name || pastCard.name === futureCard.name || presentCard.name === futureCard.name) {
+        performReading();
+        return;
+    }
 
     updateCard("past", pastCard, "past");
     updateCard("present", presentCard, "present");
