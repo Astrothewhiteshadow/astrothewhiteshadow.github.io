@@ -209,63 +209,63 @@ const tarotDeck = [
                 future: ""
             } } },
     { name: 'Two of Cups', image: 'js/img/tarot/twocups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Forming significant partnerships, past emotional connections.",
+        present: "Experiencing harmony and mutual attraction, deepening relationships.",
+        future: "Strengthening partnerships, potential for lasting unions.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Three of Cups', image: 'js/img/tarot/threecups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Celebrations and friendships, joyful past experiences.",
+        present: "Embracing community and collaboration, enjoying social connections.",
+        future: "Continued celebrations and creative collaborations, joy ahead.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Four of Cups', image: 'js/img/tarot/fourcups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Moments of contemplation and reevaluation, past apathy.",
+        present: "Reflecting on current emotions and opportunities, feeling introspective.",
+        future: "Potential for new insights and emotional awakening, reevaluating options.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Five of Cups', image: 'js/img/tarot/fivecups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Experiences of regret and disappointment, past emotional losses.",
+        present: "Dealing with current sorrow and pessimism, processing grief.",
+        future: "Opportunities for healing and moving forward, learning from past regrets.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Six of Cups', image: 'js/img/tarot/sixcups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Revisiting childhood memories and nostalgia, past innocence.",
+        present: "Embracing joy and innocence, reconnecting with past influences.",
+        future: "Continued connection to the past, potential for joyful memories ahead.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Seven of Cups', image: 'js/img/tarot/sevencups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Facing many choices and illusions, past wishful thinking.",
+        present: "Dealing with current opportunities and decisions, discerning reality from illusion.",
+        future: "Potential for clarity and making informed choices, navigating options.",
             reversed: {
                 past: "",
                 present: "",
                 future: ""
             } } },
     { name: 'Eight of Cups', image: 'js/img/tarot/eightcups.jpg', meanings: {
-            past: "",
-            present: "",
-            future: "",
+        past: "Abandoning unfulfilling situations, past withdrawals.",
+        present: "Embracing change and seeking deeper meaning, leaving behind what no longer serves.",
+        future: "Opportunities for new paths and fulfillment, moving towards greater satisfaction.",
             reversed: {
                 past: "",
                 present: "",
