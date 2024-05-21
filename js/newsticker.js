@@ -3480,11 +3480,11 @@ const newsticker = [
         }
         shuffle (newsticker);
         let tickercontent=document.getElementById("tickercontent");
-        let x = document.createElement("div");
         newsticker.forEach(element => {
-            x.innerHTML+= element ;
-            x.innerHTML += "  "; 
-        });
-        tickercontent.append(x);
+            let x=document.createElement("div");
+            x.innerHTML=element;
+            x.classList.add('ticker__item')
+            tickercontent.append(x);
+        })
 }
 news();
