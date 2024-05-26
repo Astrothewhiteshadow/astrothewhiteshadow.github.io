@@ -161,9 +161,12 @@ body {
     }
 }
 
+.newsticker {
+position: fixed;
+top: 50px;
+}
+
 .ticker-wrap {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     overflow: hidden;
     height: 4rem;
@@ -194,6 +197,13 @@ body {
     padding: 0 2rem;
     font-size: 2rem;
     color: white;
+}
+
+.animation-duration-150 {
+    -webkit-animation-duration: 150s !important;
+    animation-duration: 150s !important;
+    position: fixed;
+    bottom: 0px;
 }
 
 body {
