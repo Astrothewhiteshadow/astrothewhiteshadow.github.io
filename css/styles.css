@@ -215,3 +215,8 @@ h2,
 p {
     padding: 0 5%;
 }
+
+.Recipes {
+    position: fixed;
+    left: 500px; 
+}
