@@ -1,0 +1,6 @@
+baseURL = 'https://astrothewhiteshadow.github.io'
+title = 'astrothewhiteshadow'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
