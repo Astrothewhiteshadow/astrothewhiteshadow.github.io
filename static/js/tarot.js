@@ -1,6 +1,6 @@
 // Liste der Tarot-Karten und zugehöriger Bilddateien
 const tarotDeck = [
-    { name: 'The Fool', image: 'js/img/tarot/fool.jpg', meanings: {
+    { name: 'The Fool', image: '/img/tarot/fool.jpg', meanings: {
         past: "Beginnings that shaped your journey, innocence that led to new experiences.",
         present: "Embracing spontaneity and adventure, taking a leap of faith.",
         future: "New opportunities on the horizon, a fresh start awaits.",
@@ -9,7 +9,7 @@ const tarotDeck = [
                 present: "Current fear of taking risks, lack of direction.",
                 future: "Potential for poor decisions and naive actions."
             } } },
-    { name: 'The Magician', image: 'js/img/tarot/magician.jpg', meanings: {
+    { name: 'The Magician', image: '/img/tarot/magician.jpg', meanings: {
         past: "Utilizing your skills and talents, early manifestations of your desires",
         present: "Harnessing your personal power and resourcefulness, creating your reality",
         future: "Opportunities to manifest your goals, inspired action will lead to success.",
@@ -18,7 +18,7 @@ const tarotDeck = [
                 present: "Lack of focus, unfulfilled potential.",
                 future: "Risk of being misled or self-doubt impacting future plans."
             } } },
-    { name: 'The High Priestess', image: 'js/img/tarot/highpriestess.jpg', meanings: {
+    { name: 'The High Priestess', image: '/img/tarot/highpriestess.jpg', meanings: {
         past: "Moments of introspection and intuitive insights, uncovering hidden truths.",
         present: "Trusting your intuition and inner wisdom, embracing the unknown.",
         future: "Deepening your spiritual knowledge, hidden insights will come to light.",
@@ -27,7 +27,7 @@ const tarotDeck = [
                 present: "Current confusion and hidden agendas.",
                 future: "Potential for deceit and lack of insight."
             } } },
-    { name: 'The Empress', image: 'js/img/tarot/empress.jpg', meanings: {
+    { name: 'The Empress', image: '/img/tarot/empress.jpg', meanings: {
         past: "Nurturing relationships and creativity, experiences of abundance.",
         present: "Embracing your femininity and nurturing aspects, enjoying life's pleasures.",
         future: "Growth and abundance, potential for new projects or relationships.",
@@ -36,7 +36,7 @@ const tarotDeck = [
                 present: "Issues with dependency, feeling stifled.",
                 future: "Potential for creative blocks or financial difficulties."
             } } },
-    { name: 'The Emperor', image: 'js/img/tarot/emperor.jpg', meanings: {
+    { name: 'The Emperor', image: '/img/tarot/emperor.jpg', meanings: {
         past: "Establishing structure and order, taking on leadership roles.",
         present: "Asserting authority and control, maintaining stability.",
         future: "Building a solid foundation for future success, leadership opportunities.",
@@ -45,7 +45,7 @@ const tarotDeck = [
                 present: "Current power struggles and rigidity.",
                 future: "Risk of oppression and inflexibility."
             } } },
-    { name: 'The Hierophant', image: 'js/img/tarot/hierophant.jpg', meanings: {
+    { name: 'The Hierophant', image: '/img/tarot/hierophant.jpg', meanings: {
         past: "Adhering to traditions and beliefs, early guidance and education.",
         present: "Seeking spiritual wisdom and counsel, embracing conventional values.",
         future: "Opportunities for spiritual growth, potential for teaching or mentoring.",
@@ -54,7 +54,7 @@ const tarotDeck = [
                 present: "Current conformity or unconventional approaches.",
                 future: "Potential for questioning beliefs and lack of guidance."
             } } },
-    { name: 'The Lovers', image: 'js/img/tarot/lovers.jpg', meanings: {
+    { name: 'The Lovers', image: '/img/tarot/lovers.jpg', meanings: {
         past: "Significant relationships and choices that shaped your path.",
         present: "Harmonious partnerships and love, making value-based decisions.",
         future: "Deepening connections, important choices regarding relationships.",
@@ -63,7 +63,7 @@ const tarotDeck = [
                 present: "Current conflicts and imbalances in partnerships.",
                 future: "Risk of relationship problems or difficult decisions."
             } } },
-    { name: 'The Chariot', image: 'js/img/tarot/chariot.jpg', meanings: {
+    { name: 'The Chariot', image: '/img/tarot/chariot.jpg', meanings: {
         past: "Overcoming challenges through determination, past victories.",
         present: "Harnessing willpower and control, moving forward with confidence.",
         future: "Success through focus and determination, potential for travel or progress.",
@@ -72,7 +72,7 @@ const tarotDeck = [
                 present: "Current obstacles and lack of direction.",
                 future: "Potential for defeat and unresolved conflicts."
             } } },
-    { name: 'Justice', image: 'js/img/tarot/justice.jpg', meanings: {
+    { name: 'Justice', image: '/img/tarot/justice.jpg', meanings: {
         past: "Experiences of fairness and truth, past decisions and their consequences.",
         present: "Seeking justice and balance, making fair decisions.",
         future: "Future outcomes will be just and fair, potential legal matters.",
@@ -81,7 +81,7 @@ const tarotDeck = [
                 present: "Current imbalance and lack of accountability.",
                 future: "Potential for continued unfairness and dishonesty."
             } } },
-    { name: 'The Hermit', image: 'js/img/tarot/hermit.jpg', meanings: {
+    { name: 'The Hermit', image: '/img/tarot/hermit.jpg', meanings: {
         past: "Periods of introspection and solitude, seeking inner guidance.",
         present: "Taking time for self-reflection and spiritual insight, withdrawal.",
         future: "Continued introspection, potential for enlightenment and wisdom.",
@@ -90,7 +90,7 @@ const tarotDeck = [
                 present: "Current loneliness and lack of insight.",
                 future: "Potential for continued solitude and avoidance."
             } } },
-    { name: 'Wheel of Fortune', image: 'js/img/tarot/wheeloffortune.jpg', meanings: {
+    { name: 'Wheel of Fortune', image: '/img/tarot/wheeloffortune.jpg', meanings: {
         past: "Significant turning points and cycles, experiences of fate.",
         present: "Embracing change and cycles, recognizing the role of destiny.",
         future: "Positive shifts and opportunities, a new cycle beginning.",
@@ -99,7 +99,7 @@ const tarotDeck = [
                 present: "Current instability and unexpected changes.",
                 future: "Risk of bad luck and lack of control over fate."
             } } },
-    { name: 'Strength', image: 'js/img/tarot/strength.jpg', meanings: {
+    { name: 'Strength', image: '/img/tarot/strength.jpg', meanings: {
         past: "Demonstrating courage and resilience, overcoming past obstacles.",
         present: "Balancing inner strength with compassion, mastering self-control.",
         future: "Facing future challenges with courage, strength will lead to success.",
@@ -108,7 +108,7 @@ const tarotDeck = [
                 present: "Current fear and lack of confidence.",
                 future: "Risk of inner turmoil and vulnerability."
             } } },
-    { name: 'The Hanged Man', image: 'js/img/tarot/hangedman.jpg', meanings: {
+    { name: 'The Hanged Man', image: '/img/tarot/hangedman.jpg', meanings: {
         past: "Moments of surrender and letting go, gaining new perspectives.",
         present: "Embracing pause and contemplation, seeing things differently.",
         future: "Potential for transformation through surrender, new insights ahead.",
@@ -117,7 +117,7 @@ const tarotDeck = [
                 present: "Current indecision and lack of progress.",
                 future: "Risk of continued delays and sacrifices."
             } } },
-    { name: 'Death', image: 'js/img/tarot/death.jpg', meanings: {
+    { name: 'Death', image: '/img/tarot/death.jpg', meanings: {
         past: "Endings and transformations, significant changes in your life.",
         present: "Embracing change and letting go, transformative processes.",
         future: "New beginnings after endings, profound transformation awaits.",
@@ -126,7 +126,7 @@ const tarotDeck = [
                 present: "Current fear of endings and transformation.",
                 future: "Potential for prolonged transitions and difficulty letting go."
             } } },
-    { name: 'Temperance', image: 'js/img/tarot/temperance.jpg', meanings: {
+    { name: 'Temperance', image: '/img/tarot/temperance.jpg', meanings: {
         past: "Periods of balance and moderation, learning patience.",
         present: "Seeking harmony and balance, practicing moderation.",
         future: "Continued balance and harmony, potential for healing and peace.",
@@ -135,7 +135,7 @@ const tarotDeck = [
                 present: "Current disharmony and lack of moderation.",
                 future: "Risk of continued imbalance and lack of patience."
             } } },
-    { name: 'The Devil', image: 'js/img/tarot/devil.jpg', meanings: {
+    { name: 'The Devil', image: '/img/tarot/devil.jpg', meanings: {
         past: "Facing temptations and attachments, past experiences of restriction.",
         present: "Recognizing and breaking free from unhealthy patterns, confronting fears.",
         future: "Opportunities to overcome limitations, potential for liberation.",
@@ -144,7 +144,7 @@ const tarotDeck = [
                 present: "Current entrapment and unhealthy attachments.",
                 future: "Potential for continued bondage and negative patterns."
             } } },
-    { name: 'The Tower', image: 'js/img/tarot/tower.jpg', meanings: {
+    { name: 'The Tower', image: '/img/tarot/tower.jpg', meanings: {
         past: "Sudden upheavals and revelations, past disruptions.",
         present: "Embracing change and transformation, dealing with chaos.",
         future: "Potential for sudden changes and insights, rebuilding after upheaval.",
@@ -153,7 +153,7 @@ const tarotDeck = [
                 present: "Current chaos and instability.",
                 future: "Risk of unexpected disasters and breakdowns."
             } } },
-    { name: 'The Star', image: 'js/img/tarot/star.jpg', meanings: {
+    { name: 'The Star', image: '/img/tarot/star.jpg', meanings: {
         past: "Moments of hope and renewal, past inspirations.",
         present: "Embracing optimism and faith, healing and renewal.",
         future: "Continued hope and inspiration, potential for dreams to come true.",
@@ -162,7 +162,7 @@ const tarotDeck = [
                 present: "Current lack of faith and pessimism.",
                 future: "Potential for continued discouragement and lost dreams."
             } } },
-    { name: 'The Moon', image: 'js/img/tarot/moon.jpg', meanings: {
+    { name: 'The Moon', image: '/img/tarot/moon.jpg', meanings: {
         past: "Facing fears and illusions, past experiences of uncertainty.",
         present: "Trusting intuition and dealing with subconscious issues, confronting fears.",
         future: "Uncovering hidden truths, potential for emotional clarity.",
@@ -171,7 +171,7 @@ const tarotDeck = [
                 present: "Current fears and illusion.",
                 future: "Risk of continued uncertainty and deception."
             } } },
-    { name: 'The Sun', image: 'js/img/tarot/sun.jpg', meanings: {
+    { name: 'The Sun', image: '/img/tarot/sun.jpg', meanings: {
         past: "Periods of joy and success, positive past experiences.",
         present: "Embracing positivity and vitality, enjoying success.",
         future: "Continued success and happiness, potential for joy and fulfillment.",
@@ -180,7 +180,7 @@ const tarotDeck = [
                 present: "Current lack of clarity and delays.",
                 future: "Potential for temporary setbacks and lack of success."
             } } },
-    { name: 'Judgement', image: 'js/img/tarot/judgement.jpg', meanings: {
+    { name: 'Judgement', image: '/img/tarot/judgement.jpg', meanings: {
         past: "Moments of self-reflection and judgement, past awakenings.",
         present: "Embracing rebirth and inner calling, evaluating your path.",
         future: "Opportunities for absolution and renewal, potential for transformative decisions.",
@@ -189,7 +189,7 @@ const tarotDeck = [
                 present: "Current guilt and lack of accountability.",
                 future: "Risk of continued avoidance and failure to learn lessons."
             } } },
-    { name: 'The World', image: 'js/img/tarot/world.jpg', meanings: {
+    { name: 'The World', image: '/img/tarot/world.jpg', meanings: {
         past: " Completing cycles and achieving goals, past accomplishments.",
         present: "Embracing integration and wholeness, celebrating success.",
         future: "Continued completion and fulfillment, potential for new journeys.",
@@ -199,7 +199,7 @@ const tarotDeck = [
                 future: "Potential for unfinished business and delays in achievements."
             } } },
 
-    { name: 'Ace of Cups', image: 'js/img/tarot/acecups.jpg', meanings: {
+    { name: 'Ace of Cups', image: '/img/tarot/acecups.jpg', meanings: {
         past: "New emotional beginnings, past experiences of love and creativity.",
         present: "Embracing new relationships and emotional experiences, feeling fulfilled.",
         future: "Potential for new love and creative opportunities, emotional abundance.",
@@ -208,7 +208,7 @@ const tarotDeck = [
                 present: "Current emotional blockages and unfulfilled relationships.",
                 future: "Potential for continued emotional emptiness and disappointment."
             } } },
-    { name: 'Two of Cups', image: 'js/img/tarot/twocups.jpg', meanings: {
+    { name: 'Two of Cups', image: '/img/tarot/twocups.jpg', meanings: {
         past: "Forming significant partnerships, past emotional connections.",
         present: "Experiencing harmony and mutual attraction, deepening relationships.",
         future: "Strengthening partnerships, potential for lasting unions.",
@@ -217,7 +217,7 @@ const tarotDeck = [
                 present: "Current misunderstandings and conflicts.",
                 future: "Risk of future relationship difficulties and lack of connection."
             } } },
-    { name: 'Three of Cups', image: 'js/img/tarot/threecups.jpg', meanings: {
+    { name: 'Three of Cups', image: '/img/tarot/threecups.jpg', meanings: {
         past: "Celebrations and friendships, joyful past experiences.",
         present: "Embracing community and collaboration, enjoying social connections.",
         future: "Continued celebrations and creative collaborations, joy ahead.",
@@ -226,7 +226,7 @@ const tarotDeck = [
                 present: "Current isolation and lack of support.",
                 future: "Potential for continued loneliness and disrupted celebrations."
             } } },
-    { name: 'Four of Cups', image: 'js/img/tarot/fourcups.jpg', meanings: {
+    { name: 'Four of Cups', image: '/img/tarot/fourcups.jpg', meanings: {
         past: "Moments of contemplation and reevaluation, past apathy.",
         present: "Reflecting on current emotions and opportunities, feeling introspective.",
         future: "Potential for new insights and emotional awakening, reevaluating options.",
@@ -235,7 +235,7 @@ const tarotDeck = [
                 present: "Current dissatisfaction and boredom.",
                 future: "Risk of continued disinterest and ignoring opportunities."
             } } },
-    { name: 'Five of Cups', image: 'js/img/tarot/fivecups.jpg', meanings: {
+    { name: 'Five of Cups', image: '/img/tarot/fivecups.jpg', meanings: {
         past: "Experiences of regret and disappointment, past emotional losses.",
         present: "Dealing with current sorrow and pessimism, processing grief.",
         future: "Opportunities for healing and moving forward, learning from past regrets.",
@@ -244,7 +244,7 @@ const tarotDeck = [
                 present: "Current sadness and inability to move forward.",
                 future: "Potential for continued grief and regret."
             } } },
-    { name: 'Six of Cups', image: 'js/img/tarot/sixcups.jpg', meanings: {
+    { name: 'Six of Cups', image: '/img/tarot/sixcups.jpg', meanings: {
         past: "Revisiting childhood memories and nostalgia, past innocence.",
         present: "Embracing joy and innocence, reconnecting with past influences.",
         future: "Continued connection to the past, potential for joyful memories ahead.",
@@ -253,7 +253,7 @@ const tarotDeck = [
                 present: "Current inability to let go and live in the present.",
                 future: "Risk of being stuck in past memories and lack of growth."
             } } },
-    { name: 'Seven of Cups', image: 'js/img/tarot/sevencups.jpg', meanings: {
+    { name: 'Seven of Cups', image: '/img/tarot/sevencups.jpg', meanings: {
         past: "Facing many choices and illusions, past wishful thinking.",
         present: "Dealing with current opportunities and decisions, discerning reality from illusion.",
         future: "Potential for clarity and making informed choices, navigating options.",
@@ -262,7 +262,7 @@ const tarotDeck = [
                 present: "Current confusion and inability to make decisions.",
                 future: "Potential for continued illusions and missed opportunities."
             } } },
-    { name: 'Eight of Cups', image: 'js/img/tarot/eightcups.jpg', meanings: {
+    { name: 'Eight of Cups', image: '/img/tarot/eightcups.jpg', meanings: {
         past: "Abandoning unfulfilling situations, past withdrawals.",
         present: "Embracing change and seeking deeper meaning, leaving behind what no longer serves.",
         future: "Opportunities for new paths and fulfillment, moving towards greater satisfaction.",
@@ -271,7 +271,7 @@ const tarotDeck = [
                 present: "Current dissatisfaction and emotional withdrawal.",
                 future: "Risk of continued avoidance and unfulfilled quests."
             } } },
-    { name: 'Nine of Cups', image: 'js/img/tarot/ninecups.jpg', meanings: {
+    { name: 'Nine of Cups', image: '/img/tarot/ninecups.jpg', meanings: {
         past: "Moments of contentment and satisfaction, past emotional fulfillment.",
         present: "Enjoying current contentment and gratitude, wishes coming true.",
         future: "Continued emotional satisfaction, potential for achieving desires.",
@@ -280,7 +280,7 @@ const tarotDeck = [
                 present: "Current lack of true fulfillment and overindulgence.",
                 future: "Potential for hollow successes and emotional emptiness."
             } } },
-    { name: 'Ten of Cups', image: 'js/img/tarot/tencups.jpg', meanings: {
+    { name: 'Ten of Cups', image: '/img/tarot/tencups.jpg', meanings: {
         past: "Experiencing harmonious relationships, past emotional alignment.",
         present: "Embracing current love and happiness, enjoying family and harmony.",
         future: "Continued joy and fulfillment, potential for lasting happiness.",
@@ -289,7 +289,7 @@ const tarotDeck = [
                 present: "Current disharmony and family issues.",
                 future: "Risk of future discord and lack of emotional fulfillment."
             } } },
-    { name: 'Page of Cups', image: 'js/img/tarot/pagecups.jpg', meanings: {
+    { name: 'Page of Cups', image: '/img/tarot/pagecups.jpg', meanings: {
         past: "Creative opportunities and curiosity, past emotional beginnings.",
         present: "Embracing current intuitive messages and possibilities, feeling inspired.",
         future: "Potential for new creative endeavors, continued emotional growth.",
@@ -298,7 +298,7 @@ const tarotDeck = [
                 present: "Current lack of emotional depth and naivety.",
                 future: "Potential for continued emotional immaturity and disappointment."
             } } },
-    { name: 'Knight of Cups', image: 'js/img/tarot/knightcups.jpg', meanings: {
+    { name: 'Knight of Cups', image: '/img/tarot/knightcups.jpg', meanings: {
         past: "Romantic and imaginative experiences, past emotional journeys.",
         present: "Embracing charm and inspiration, pursuing romantic or creative goals.",
         future: "Opportunities for romance and creativity, potential for passionate pursuits.",
@@ -307,7 +307,7 @@ const tarotDeck = [
                 present: "Current moodiness and inability to commit.",
                 future: "Risk of continued emotional instability and unfulfilled desires."
             } } },
-    { name: 'Queen of Cups', image: 'js/img/tarot/queencups.jpg', meanings: {
+    { name: 'Queen of Cups', image: '/img/tarot/queencups.jpg', meanings: {
         past: "Demonstrating compassion and care, past emotional stability.",
         present: "Embracing intuition and nurturing aspects, feeling emotionally balanced.",
         future: "Continued emotional stability and care, potential for intuitive insights.",
@@ -316,7 +316,7 @@ const tarotDeck = [
                 present: "Current mood swings and lack of emotional boundaries.",
                 future: "Potential for continued emotional volatility and co-dependency."
             } } },
-    { name: 'King of Cups', image: 'js/img/tarot/kingcups.jpg', meanings: {
+    { name: 'King of Cups', image: '/img/tarot/kingcups.jpg', meanings: {
         past: "Providing emotional support and wisdom, past compassionate leadership.",
         present: "Balancing emotions and diplomacy, exercising emotional control.",
         future: "Opportunities for compassionate leadership, potential for emotional mastery.",
@@ -326,7 +326,7 @@ const tarotDeck = [
                 future: "Risk of continued emotional detachment and manipulation."
             } } },
 
-    { name: 'Ace of Pentacles', image: 'js/img/tarot/acepentacles.jpg', meanings: {
+    { name: 'Ace of Pentacles', image: '/img/tarot/acepentacles.jpg', meanings: {
         past: "New financial opportunities, past manifestations of abundance.",
         present: "Embracing current prosperity and career prospects, feeling secure.",
         future: "Potential for continued financial growth, new opportunities on the horizon.",
@@ -335,7 +335,7 @@ const tarotDeck = [
                 present: "Current lack of prosperity and wasted resources.",
                 future: "Potential for continued financial difficulties and instability."
             } } },
-    { name: 'Two of Pentacles', image: 'js/img/tarot/twopentacles.jpg', meanings: {
+    { name: 'Two of Pentacles', image: '/img/tarot/twopentacles.jpg', meanings: {
         past: "Balancing multiple priorities, past adaptability.",
         present: "Managing current responsibilities and time, finding balance.",
         future: "Continued ability to juggle tasks, potential for successful management.",
@@ -344,7 +344,7 @@ const tarotDeck = [
                 present: "Current struggles to manage responsibilities and resources.",
                 future: "Risk of continued financial juggling and instability."
             } } },
-    { name: 'Three of Pentacles', image: 'js/img/tarot/threepentacles.jpg', meanings: {
+    { name: 'Three of Pentacles', image: '/img/tarot/threepentacles.jpg', meanings: {
         past: "Collaborative projects and learning, past teamwork.",
         present: "Embracing current collaboration and skill development, working together.",
         future: "Opportunities for teamwork and mastery, potential for successful projects.",
@@ -353,7 +353,7 @@ const tarotDeck = [
                 present: "Current disharmony and lack of skill development.",
                 future: "Potential for continued teamwork issues and lack of progress."
             } } },
-    { name: 'Four of Pentacles', image: 'js/img/tarot/fourpentacles.jpg', meanings: {
+    { name: 'Four of Pentacles', image: '/img/tarot/fourpentacles.jpg', meanings: {
         past: "Saving and securing resources, past financial conservatism.",
         present: "Maintaining security and control, feeling stable.",
         future: "Continued financial stability, potential for building wealth.",
@@ -362,7 +362,7 @@ const tarotDeck = [
                 present: "Current financial insecurity and fear of loss.",
                 future: "Risk of continued financial stagnation and materialism."
             } } },
-    { name: 'Five of Pentacles', image: 'js/img/tarot/fivepentacles.jpg', meanings: {
+    { name: 'Five of Pentacles', image: '/img/tarot/fivepentacles.jpg', meanings: {
         past: "Experiences of financial loss and isolation, past challenges.",
         present: "Dealing with current financial worries and scarcity, seeking support.",
         future: "Opportunities for overcoming financial difficulties, potential for recovery.",
@@ -371,7 +371,7 @@ const tarotDeck = [
                 present: "Current struggles with poverty and isolation.",
                 future: "Potential for continued financial difficulties and lack of support."
             } } },
-    { name: 'Six of Pentacles', image: 'js/img/tarot/sixpentacles.jpg', meanings: {
+    { name: 'Six of Pentacles', image: '/img/tarot/sixpentacles.jpg', meanings: {
         past: "Acts of generosity and sharing, past charitable actions.",
         present: "Embracing giving and receiving, finding balance in generosity.",
         future: "Continued generosity and support, potential for financial harmony.",
@@ -380,7 +380,7 @@ const tarotDeck = [
                 present: "Current lack of generosity and selfishness.",
                 future: "Risk of continued imbalance and lack of financial harmony."
             } } },
-    { name: 'Seven of Pentacles', image: 'js/img/tarot/sevenpentacles.jpg', meanings: {
+    { name: 'Seven of Pentacles', image: '/img/tarot/sevenpentacles.jpg', meanings: {
         past: "Long-term planning and perseverance, past investments.",
         present: "Evaluating current progress and efforts, practicing patience.",
         future: "Continued growth and sustainable results, potential for long-term success.",
@@ -389,7 +389,7 @@ const tarotDeck = [
                 present: "Current impatience and lack of progress.",
                 future: "Potential for continued delays and unfulfilled efforts."
             } } },
-    { name: 'Eight of Pentacles', image: 'js/img/tarot/eightpentacles.jpg', meanings: {
+    { name: 'Eight of Pentacles', image: '/img/tarot/eightpentacles.jpg', meanings: {
         past: "Skill development and hard work, past mastery.",
         present: "Embracing current efforts and dedication, focusing on improvement.",
         future: "Continued skill development and mastery, potential for success through hard work.",
@@ -398,7 +398,7 @@ const tarotDeck = [
                 present: "Current lack of focus and diminishing returns.",
                 future: "Risk of continued burnout and lack of mastery."
             } } },
-    { name: 'Nine of Pentacles', image: 'js/img/tarot/ninepentacles.jpg', meanings: {
+    { name: 'Nine of Pentacles', image: '/img/tarot/ninepentacles.jpg', meanings: {
         past: "Experiences of self-sufficiency and luxury, past financial independence.",
         present: "Enjoying current abundance and independence, feeling secure.",
         future: "Continued financial independence and luxury, potential for lasting abundance.",
@@ -407,7 +407,7 @@ const tarotDeck = [
                 present: "Current insecurity and lack of true independence.",
                 future: "Potential for continued financial dependency and superficiality."
             } } },
-    { name: 'Ten of Pentacles', image: 'js/img/tarot/tenpentacles.jpg', meanings: {
+    { name: 'Ten of Pentacles', image: '/img/tarot/tenpentacles.jpg', meanings: {
         past: "Building family legacy and wealth, past long-term success.",
         present: "Embracing current financial security and family harmony, feeling accomplished.",
         future: "Continued financial stability and legacy, potential for generational wealth.",
@@ -416,7 +416,7 @@ const tarotDeck = [
                 present: "Current lack of security and disharmony.",
                 future: "Risk of continued family discord and financial challenges."
             } } },
-    { name: 'Page of Pentacles', image: 'js/img/tarot/pagepentacles.jpg', meanings: {
+    { name: 'Page of Pentacles', image: '/img/tarot/pagepentacles.jpg', meanings: {
         past: "New financial opportunities and skill development, past practical beginnings.",
         present: "Embracing current opportunities for growth, focusing on practical goals.",
         future: "Potential for continued skill development and financial success.",
@@ -425,7 +425,7 @@ const tarotDeck = [
                 present: "Current lack of ambition and practicality.",
                 future: "Potential for continued lack of focus and financial instability."
             } } },
-    { name: 'Knight of Pentacles', image: 'js/img/tarot/knightpentacles.jpg', meanings: {
+    { name: 'Knight of Pentacles', image: '/img/tarot/knightpentacles.jpg', meanings: {
         past: "Hard work and routine, past dedication to goals.",
         present: "Embracing productivity and responsibility, staying focused.",
         future: "Continued dedication and hard work, potential for achieving practical goals.",
@@ -434,7 +434,7 @@ const tarotDeck = [
                 present: "Current routine and lack of excitement.",
                 future: "Risk of continued stagnation and lack of ambition."
             } } },
-    { name: 'Queen of Pentacles', image: 'js/img/tarot/queenpentacles.jpg', meanings: {
+    { name: 'Queen of Pentacles', image: '/img/tarot/queenpentacles.jpg', meanings: {
         past: "Nurturing and providing financially, past practical support.",
         present: "Embracing current stability and care, balancing work and home.",
         future: "Continued financial stability and nurturing, potential for practical success.",
@@ -443,7 +443,7 @@ const tarotDeck = [
                 present: "Current imbalance between work and personal life.",
                 future: "Potential for continued material focus and neglect of well-being."
             } } },
-    { name: 'King of Pentacles', image: 'js/img/tarot/kingpentacles.jpg', meanings: {
+    { name: 'King of Pentacles', image: '/img/tarot/kingpentacles.jpg', meanings: {
         past: "Demonstrating business acumen and leadership, past financial success.",
         present: "Embracing current authority and abundance, leading with discipline.",
         future: "Continued financial success and security, potential for leadership opportunities.",
@@ -453,7 +453,7 @@ const tarotDeck = [
                 future: "Risk of continued financial struggles and misuse of power."
             } } },
 
-    { name: 'Ace of Swords', image: 'js/img/tarot/aceswords.jpg', meanings: {
+    { name: 'Ace of Swords', image: '/img/tarot/aceswords.jpg', meanings: {
         past: "New ideas and mental clarity, past breakthroughs.",
         present: "Embracing current clarity and insight, cutting through confusion.",
         future: "Potential for new ideas and success, continued mental clarity.",
@@ -462,7 +462,7 @@ const tarotDeck = [
                 present: "Current confusion and mental blocks.",
                 future: "Potential for continued misunderstandings and lack of insight."
             } } },
-    { name: 'Two of Swords', image: 'js/img/tarot/twoswords.jpg', meanings: {
+    { name: 'Two of Swords', image: '/img/tarot/twoswords.jpg', meanings: {
         past: "Difficult decisions and impasses, past moments of weighing options.",
         present: "Dealing with current decisions and avoidance, seeking clarity.",
         future: "Opportunities for resolution and clarity, potential for informed decisions.",
@@ -471,7 +471,7 @@ const tarotDeck = [
                 present: "Current stalemates and inability to make decisions.",
                 future: "Risk of continued avoidance and unresolved conflicts."
             } } },
-    { name: 'Three of Swords', image: 'js/img/tarot/threeswords.jpg', meanings: {
+    { name: 'Three of Swords', image: '/img/tarot/threeswords.jpg', meanings: {
         past: "Experiences of heartbreak and sorrow, past emotional pain.",
         present: "Dealing with current grief and hurt, processing emotional pain.",
         future: "Opportunities for healing and moving forward, potential for emotional recovery.",
@@ -480,7 +480,7 @@ const tarotDeck = [
                 present: "Current sorrow and difficulty moving on.",
                 future: "Potential for continued heartache and emotional wounds."
             } } },
-    { name: 'Four of Swords', image: 'js/img/tarot/fourswords.jpg', meanings: {
+    { name: 'Four of Swords', image: '/img/tarot/fourswords.jpg', meanings: {
         past: "Moments of rest and recuperation, past introspection.",
         present: "Embracing current rest and relaxation, taking time for contemplation.",
         future: "Continued need for rest and healing, potential for recovery and peace.",
@@ -489,7 +489,7 @@ const tarotDeck = [
                 present: "Current stress and need for recovery.",
                 future: "Risk of continued exhaustion and inability to find peace."
             } } },
-    { name: 'Five of Swords', image: 'js/img/tarot/fiveswords.jpg', meanings: {
+    { name: 'Five of Swords', image: '/img/tarot/fiveswords.jpg', meanings: {
         past: "Conflict and disagreements, past experiences of competition.",
         present: "Dealing with current conflicts and tensions, navigating disagreements.",
         future: "Opportunities for resolution and learning, potential for overcoming conflict.",
@@ -498,7 +498,7 @@ const tarotDeck = [
                 present: "Current tension and desire for victory at all costs.",
                 future: "Potential for continued conflicts and lack of resolution."
             } } },
-    { name: 'Six of Swords', image: 'js/img/tarot/sixswords.jpg', meanings: {
+    { name: 'Six of Swords', image: '/img/tarot/sixswords.jpg', meanings: {
         past: "Transition and moving on, past rites of passage.",
         present: "Embracing current change and transition, releasing baggage.",
         future: "Continued progress and moving forward, potential for new beginnings.",
@@ -507,7 +507,7 @@ const tarotDeck = [
                 present: "Current resistance to change and troubled transitions.",
                 future: "Risk of continued difficulties in moving forward and finding peace."
             } } },
-    { name: 'Seven of Swords', image: 'js/img/tarot/sevenswords.jpg', meanings: {
+    { name: 'Seven of Swords', image: '/img/tarot/sevenswords.jpg', meanings: {
         past: "Experiences of deception and strategy, past cunning actions.",
         present: "Dealing with current strategic actions and deceit, acting wisely.",
         future: "Opportunities for strategic decisions, potential for overcoming deception.",
@@ -516,7 +516,7 @@ const tarotDeck = [
                 present: "Current dishonesty and lack of trust.",
                 future: "Potential for continued deceit and avoidance of responsibilities."
             } } },
-    { name: 'Eight of Swords', image: 'js/img/tarot/eightswords.jpg', meanings: {
+    { name: 'Eight of Swords', image: '/img/tarot/eightswords.jpg', meanings: {
         past: "Self-imposed restrictions and negative thoughts, past feelings of imprisonment.",
         present: "Dealing with current limitations and victim mentality, seeking freedom.",
         future: "Opportunities for breaking free, potential for mental liberation.",
@@ -525,7 +525,7 @@ const tarotDeck = [
                 present: "Current mental blocks and feelings of restriction.",
                 future: "Risk of continued entrapment and lack of progress."
             } } },
-    { name: 'Nine of Swords', image: 'js/img/tarot/nineswords.jpg', meanings: {
+    { name: 'Nine of Swords', image: '/img/tarot/nineswords.jpg', meanings: {
         past: "Experiences of anxiety and worry, past nightmares.",
         present: "Dealing with current fears and depression, seeking clarity.",
         future: "Opportunities for overcoming anxiety, potential for mental peace.",
@@ -534,7 +534,7 @@ const tarotDeck = [
                 present: "Current stress and worry.",
                 future: "Potential for continued anxiety and mental anguish."
             } } },
-    { name: 'Ten of Swords', image: 'js/img/tarot/tenswords.jpg', meanings: {
+    { name: 'Ten of Swords', image: '/img/tarot/tenswords.jpg', meanings: {
         past: "Painful endings and deep wounds, past crises.",
         present: "Dealing with current betrayal and loss, processing pain.",
         future: "Opportunities for healing and recovery, potential for new beginnings.",
@@ -543,7 +543,7 @@ const tarotDeck = [
                 present: "Current suffering and feeling defeated.",
                 future: "Risk of continued hardships and painful conclusions."
             } } },
-    { name: 'Page of Swords', image: 'js/img/tarot/pageswords.jpg', meanings: {
+    { name: 'Page of Swords', image: '/img/tarot/pageswords.jpg', meanings: {
         past: "New ideas and curiosity, past intellectual beginnings.",
         present: "Embracing current curiosity and communication, seeking knowledge.",
         future: "Potential for new ideas and growth, continued intellectual pursuits.",
@@ -552,7 +552,7 @@ const tarotDeck = [
                 present: "Current restlessness and lack of direction.",
                 future: "Potential for continued impulsiveness and misunderstandings."
             } } },
-    { name: 'Knight of Swords', image: 'js/img/tarot/knightswords.jpg', meanings: {
+    { name: 'Knight of Swords', image: '/img/tarot/knightswords.jpg', meanings: {
         past: "Ambitious actions and driven pursuits, past rapid changes.",
         present: "Embracing current drive and ambition, pursuing goals with determination.",
         future: "Opportunities for success through action, potential for rapid progress.",
@@ -561,7 +561,7 @@ const tarotDeck = [
                 present: "Current haste and aggressive behavior.",
                 future: "Risk of continued impulsiveness and conflicts."
             } } },
-    { name: 'Queen of Swords', image: 'js/img/tarot/queenswords.jpg', meanings: {
+    { name: 'Queen of Swords', image: '/img/tarot/queenswords.jpg', meanings: {
         past: "Independent judgement and clear boundaries, past direct communication.",
         present: "Embracing current clarity and unbiased judgement, setting boundaries.",
         future: "Continued mental clarity and independence, potential for effective communication.",
@@ -570,7 +570,7 @@ const tarotDeck = [
                 present: "Current harshness and lack of empathy.",
                 future: "Potential for continued emotional distance and sharp criticism."
             } } },
-    { name: 'King of Swords', image: 'js/img/tarot/kingswords.jpg', meanings: {
+    { name: 'King of Swords', image: '/img/tarot/kingswords.jpg', meanings: {
         past: "Demonstrating authority and intellectual power, past truth-seeking.",
         present: "Embracing current clarity and authority, leading with truth.",
         future: "Opportunities for leadership and truth, potential for intellectual mastery.",
@@ -580,7 +580,7 @@ const tarotDeck = [
                 future: "Risk of continued tyranny and abuse of authority."
             } } },
 
-    { name: 'Ace of Wands', image: 'js/img/tarot/acewands.jpg', meanings: {
+    { name: 'Ace of Wands', image: '/img/tarot/acewands.jpg', meanings: {
         past: "Inspiration and new opportunities, past moments of growth.",
         present: "Embracing current potential and creativity, feeling inspired.",
         future: "Continued opportunities for growth and success, potential for new beginnings.",
@@ -589,7 +589,7 @@ const tarotDeck = [
                 present: "Current creative blocks and lack of direction.",
                 future: "Potential for continued stagnation and missed chances."
             } } },
-    { name: 'Two of Wands', image: 'js/img/tarot/twowands.jpg', meanings: {
+    { name: 'Two of Wands', image: '/img/tarot/twowands.jpg', meanings: {
         past: "Future planning and decisions, past discoveries.",
         present: "Embracing current progress and decisions, planning for the future.",
         future: "Opportunities for expansion and discovery, potential for new ventures.",
@@ -598,7 +598,7 @@ const tarotDeck = [
                 present: "Current uncertainty and lack of progress.",
                 future: "Risk of continued indecision and lack of foresight."
             } } },
-    { name: 'Three of Wands', image: 'js/img/tarot/threewands.jpg', meanings: {
+    { name: 'Three of Wands', image: '/img/tarot/threewands.jpg', meanings: {
         past: "Progress and foresight, past experiences of expansion.",
         present: "Embracing current progress and opportunities, looking ahead.",
         future: "Continued expansion and success, potential for new opportunities.",
@@ -607,7 +607,7 @@ const tarotDeck = [
                 present: "Current lack of progress and frustration.",
                 future: "Potential for continued delays and unfulfilled expectations."
             } } },
-    { name: 'Four of Wands', image: 'js/img/tarot/fourwands.jpg', meanings: {
+    { name: 'Four of Wands', image: '/img/tarot/fourwands.jpg', meanings: {
         past: "Celebrations and harmony, past moments of joy.",
         present: "Embracing current celebrations and community, feeling at home.",
         future: "Continued joy and harmony, potential for future celebrations.",
@@ -616,7 +616,7 @@ const tarotDeck = [
                 present: "Current lack of harmony and unfinished projects.",
                 future: "Risk of continued instability and lack of celebration."
             } } },
-    { name: 'Five of Wands', image: 'js/img/tarot/fivewands.jpg', meanings: {
+    { name: 'Five of Wands', image: '/img/tarot/fivewands.jpg', meanings: {
         past: "Conflict and competition, past disagreements.",
         present: "Dealing with current tensions and diversity, navigating conflict.",
         future: "Opportunities for resolution and cooperation, potential for overcoming challenges.",
@@ -625,7 +625,7 @@ const tarotDeck = [
                 present: "Current struggles and competition.",
                 future: "Potential for continued conflicts and lack of resolution."
             } } },
-    { name: 'Six of Wands', image: 'js/img/tarot/sixwands.jpg', meanings: {
+    { name: 'Six of Wands', image: '/img/tarot/sixwands.jpg', meanings: {
         past: "Success and public recognition, past achievements.",
         present: "Embracing current confidence and progress, enjoying success.",
         future: "Continued success and recognition, potential for future achievements.",
@@ -634,7 +634,7 @@ const tarotDeck = [
                 present: "Current lack of recognition and self-doubt.",
                 future: "Risk of continued setbacks and lack of success."
             } } },
-    { name: 'Seven of Wands', image: 'js/img/tarot/sevenwands.jpg', meanings: {
+    { name: 'Seven of Wands', image: '/img/tarot/sevenwands.jpg', meanings: {
         past: "Facing challenges and competition, past perseverance.",
         present: "Embracing current protection and perseverance, standing your ground.",
         future: "Opportunities for overcoming challenges, potential for continued success.",
@@ -643,7 +643,7 @@ const tarotDeck = [
                 present: "Current defensiveness and feeling overwhelmed.",
                 future: "Potential for continued struggles and need for perseverance."
             } } },
-    { name: 'Eight of Wands', image: 'js/img/tarot/eightwands.jpg', meanings: {
+    { name: 'Eight of Wands', image: '/img/tarot/eightwands.jpg', meanings: {
         past: "Fast-paced change and movement, past rapid progress.",
         present: "Embracing current action and alignment, moving forward quickly.",
         future: "Continued progress and movement, potential for swift changes.",
@@ -652,7 +652,7 @@ const tarotDeck = [
                 present: "Current lack of progress and scattered energy.",
                 future: "Risk of continued delays and lack of focus."
             } } },
-    { name: 'Nine of Wands', image: 'js/img/tarot/ninewands.jpg', meanings: {
+    { name: 'Nine of Wands', image: '/img/tarot/ninewands.jpg', meanings: {
         past: "Resilience and persistence, past tests of faith.",
         present: "Embracing current courage and boundaries, staying resilient.",
         future: "Opportunities for persistence and success, potential for overcoming obstacles.",
@@ -661,7 +661,7 @@ const tarotDeck = [
                 present: "Current defensiveness and weariness.",
                 future: "Potential for continued challenges and need for resilience."
             } } },
-    { name: 'Ten of Wands', image: 'js/img/tarot/tenwands.jpg', meanings: {
+    { name: 'Ten of Wands', image: '/img/tarot/tenwands.jpg', meanings: {
         past: "Burdens and responsibilities, past hard work.",
         present: "Dealing with current workload and completion, feeling the weight.",
         future: "Opportunities for relief and completion, potential for lighter responsibilities.",
@@ -670,7 +670,7 @@ const tarotDeck = [
                 present: "Current stress and feeling overwhelmed.",
                 future: "Risk of continued burdens and lack of relief."
             } } },
-    { name: 'Page of Wands', image: 'js/img/tarot/pagewands.jpg', meanings: {
+    { name: 'Page of Wands', image: '/img/tarot/pagewands.jpg', meanings: {
         past: "Inspiration and discovery, past creative beginnings.",
         present: "Embracing current ideas and possibilities, feeling inspired.",
         future: "Continued inspiration and creativity, potential for new adventures.",
@@ -679,7 +679,7 @@ const tarotDeck = [
                 present: "Current restlessness and lack of focus.",
                 future: "Potential for continued aimlessness and lack of progress."
             } } },
-    { name: 'Knight of Wands', image: 'js/img/tarot/knightwands.jpg', meanings: {
+    { name: 'Knight of Wands', image: '/img/tarot/knightwands.jpg', meanings: {
         past: "Energy and passion, past adventurous pursuits.",
         present: "Embracing current drive and enthusiasm, pursuing goals energetically.",
         future: "Opportunities for adventurous pursuits, potential for passionate progress.",
@@ -688,7 +688,7 @@ const tarotDeck = [
                 present: "Current impulsiveness and lack of direction.",
                 future: "Risk of continued haste and unfulfilled ambitions."
             } } },
-    { name: 'Queen of Wands', image: 'js/img/tarot/queenwands.jpg', meanings: {
+    { name: 'Queen of Wands', image: '/img/tarot/queenwands.jpg', meanings: {
         past: "Confidence and creativity, past moments of empowerment.",
         present: "Embracing current confidence and warmth, leading with inspiration.",
         future: "Continued empowerment and creativity, potential for influential leadership.",
@@ -697,7 +697,7 @@ const tarotDeck = [
                 present: "Current instability and lack of focus.",
                 future: "Potential for continued volatility and lack of support."
             } } },
-    { name: 'King of Wands', image: 'js/img/tarot/kingwands.jpg', meanings: {
+    { name: 'King of Wands', image: '/img/tarot/kingwands.jpg', meanings: {
         past: "Leadership and vision, past influential moments.",
         present: "Embracing current authority and vision, leading with confidence.",
         future: "Opportunities for visionary leadership, potential for impactful decisions.",
@@ -709,7 +709,7 @@ const tarotDeck = [
 
 
 /*
-    { name: 'Ace of', image: 'js/img/tarot/ace.jpg', meanings: {
+    { name: 'Ace of', image: '/img/tarot/ace.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -718,7 +718,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Two of', image: 'js/img/tarot/two.jpg', meanings: {
+    { name: 'Two of', image: '/img/tarot/two.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -727,7 +727,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Three of', image: 'js/img/tarot/three.jpg', meanings: {
+    { name: 'Three of', image: '/img/tarot/three.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -736,7 +736,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Four of', image: 'js/img/tarot/four.jpg', meanings: {
+    { name: 'Four of', image: '/img/tarot/four.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -745,7 +745,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Five of', image: 'js/img/tarot/five.jpg', meanings: {
+    { name: 'Five of', image: '/img/tarot/five.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -754,7 +754,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Six of', image: 'js/img/tarot/six.jpg', meanings: {
+    { name: 'Six of', image: '/img/tarot/six.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -763,7 +763,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Seven of', image: 'js/img/tarot/seven.jpg', meanings: {
+    { name: 'Seven of', image: '/img/tarot/seven.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -772,7 +772,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Eight of', image: 'js/img/tarot/eight.jpg', meanings: {
+    { name: 'Eight of', image: '/img/tarot/eight.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -781,7 +781,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Nine of', image: 'js/img/tarot/nine.jpg', meanings: {
+    { name: 'Nine of', image: '/img/tarot/nine.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -790,7 +790,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Ten of', image: 'js/img/tarot/ten.jpg', meanings: {
+    { name: 'Ten of', image: '/img/tarot/ten.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -799,7 +799,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Page of', image: 'js/img/tarot/page.jpg', meanings: {
+    { name: 'Page of', image: '/img/tarot/page.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -808,7 +808,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Knight of', image: 'js/img/tarot/knight.jpg', meanings: {
+    { name: 'Knight of', image: '/img/tarot/knight.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -817,7 +817,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'Queen of', image: 'js/img/tarot/queen.jpg', meanings: {
+    { name: 'Queen of', image: '/img/tarot/queen.jpg', meanings: {
             past: "",
             present: "",
             future: "",
@@ -826,7 +826,7 @@ const tarotDeck = [
                 present: "",
                 future: ""
             } } },
-    { name: 'King of', image: 'js/img/tarot/king.jpg', meanings: {
+    { name: 'King of', image: '/img/tarot/king.jpg', meanings: {
             past: "",
             present: "",
             future: "",
