@@ -162,8 +162,8 @@ body {
 }
 
 .newsticker {
-position: fixed;
-top: 50px;
+    position: fixed;
+    top: 50px;
 }
 
 .ticker-wrap {
@@ -171,7 +171,6 @@ top: 50px;
     overflow: hidden;
     height: 4rem;
     background-color: rgba(0, 0, 0, 0.9);
-    padding-left: 100%;
     box-sizing: content-box;
 }
 
