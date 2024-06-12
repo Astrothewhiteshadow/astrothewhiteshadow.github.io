@@ -1,6 +1,135 @@
+@font-face {
+    font-family: 'comic_neuebold';
+    src: url('/fonts/comicneue-bold-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_neuebold_italic';
+    src: url('/fonts/comicneue-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_neueitalic';
+    src: url('/fonts/comicneue-italic-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_neuelight';
+    src: url('/fonts/comicneue-light-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'comic_neuelight_italic';
+    src: url('/fonts/comicneue-lightitalic-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'comic_neueregular';
+    src: url('/fonts/comicneue-regular-webfont.woff2') format('woff2'),
+         url('/fonts/comicneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dearestregular';
+    src: url('/fonts/dearest/dearest-webfont.woff2') format('woff2'),
+         url('/fonts/dearest/dearest-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dearest_openregular';
+    src: url('/fonts/dearest/dearest_open-webfont.woff2') format('woff2'),
+         url('/fonts/dearest/dearest_open-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'dearest_outlineregular';
+    src: url('/fonts/dearest/dearest_outline-webfont.woff2') format('woff2'),
+         url('/fonts/dearest/dearest_outline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'mutlu_ornamental';
+    src: url('/fonts/mutlu/mutlu__ornamental-webfont.woff2') format('woff2'),
+         url('/fonts/mutlu/mutlu__ornamental-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'genzsch_et_heyseregular';
+    src: url('/fonts/genzschetheyse/genzschetheyse-webfont.woff2') format('woff2'),
+         url('/fonts/genzschetheyse/genzschetheyse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'genzsch_et_heyse_alternateRg';
+    src: url('/fonts/genzschetheyse/genzschetheysealt-webfont.woff2') format('woff2'),
+         url('/fonts/genzschetheyse/genzschetheysealt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-color: #000000;
-    font-family: "Comic Sans MS", "Quicksand", "Comfortaa", sans-serif;
+    font-family: 'comic_neuebold', sans-serif;
     color: #8717f0;
 }
 
