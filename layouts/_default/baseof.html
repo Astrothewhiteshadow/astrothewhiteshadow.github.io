@@ -10,6 +10,14 @@
     {{ $css := resources.Get "css/styles.css" }}{{ if hugo.IsProduction}}{{ $css = $css | minify | fingerprint }}{{ end }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <script src="/js/oneko.js" defer></script>
+    <script>
+        var remark_config = {
+            host: "https://remark42-astro.alya.nils.moe",
+            site_id: "astro",
+            theme: "dark",
+        }
+    </script>
+    <script>!function (e, n) { for (var o = 0; o < e.length; o++) { var r = n.createElement("script"), c = ".js", d = n.head || n.body; "noModule" in r ? (r.type = "module", c = ".mjs") : r.async = !0, r.defer = !0, r.src = remark_config.host + "/web/" + e[o] + c, d.appendChild(r) } }(remark_config.components || ["embed"], document);</script>
 </head>
 
 <body>
