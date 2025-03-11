@@ -12,6 +12,11 @@ type = "containered"
 <a class="btn btn-purple-primary mb-3" onclick="Fortune()">Lucky Luck Luck</a>
 
 <div id="MisFortuneCookieTextDisplay"></div>
-<a class="btn btn-purple-primary" onclick="Misfortune()">Unlucky Unluck Unluck</a>
+<a class="btn btn-purple-primary mb-3" onclick="Misfortune()">Unlucky Unluck Unluck</a>
 
 <script src="/js/fortune.js"></script>
+
+<div id="CopypastaTextDisplay"></div>
+<a class="btn btn-purple-primary" onclick="Copypasta()">woah</a>
+
+<script src="/js/copypasta.js"></script>
