@@ -8,7 +8,7 @@
             {{ with .Params.tags }}
             <i class="bi bi-tags"></i>
             {{ range $i, $tag := . }}
-            <a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ if ne $i (sub (len $.Params.tags) 1)
+            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ if ne $i (sub (len $.Params.tags) 1)
             }}, {{ end }}
             {{ end }}
             {{ end }}
