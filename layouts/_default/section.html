@@ -1,0 +1,47 @@
+{{ define "main" }}
+<main class="container">
+    <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+            {{ .Content }}
+
+            {{ $lang := .Lang }}
+
+            {{ $pages := (union .Sections .Pages) }}
+
+            {{ range .Translations }}
+            {{ $pages = $pages | lang.Merge (union .Sections .Pages) }}
+            {{ end }}
+
+            {{ range (where (.Paginate $pages).Pages ".Params.unlisted" "!=" "true") }}
+
+            {{ $link := .RelPermalink }}
+            {{ if ne .Lang $lang }}
+            {{ $link = printf "%s?lang=%s" .Permalink $lang }}
+            {{ end }}
+            <a href="{{ $link }}" class="text-decoration-none h-75">
+                <div class="d-flex p-3 hover-opacity card bg-body-tertiary px-3 py-4 m-0 rounded-4 my-4 text-start">
+                    <p class="m-0 text-body-secondary">
+                        <strong class="d-block text-body-emphasis mb-1">{{ .Title }}</strong>
+                        <small class=" text-body-secondary d-block mb-2">{{ .Description }}</small>
+                        {{ if .Date }}<i class="bi bi-calendar-event"></i> <time class=" text-body-secondary"
+                            datetime="{{ .Date.Format " 2006-01-02" }}">{{ dateFormat (default "2006-01-02"
+                            .Site.Params.dateFormat) .Date }}</time>&nbsp;{{ end }}
+                        {{ with .Params.tags }}<i class="bi bi-tags"></i> {{ delimit . ", " }}&nbsp;{{ end }}
+
+                        {{ if ne .Lang $lang }}
+                        <i class="bi bi-globe"></i> {{ i18n "Language" }}: {{ .Lang }}&nbsp;
+                        {{ end }}
+                    </p>
+                </div>
+            </a>
+            {{ end }}
+
+            <div class="mt-4 py-4 position-relative">
+                <div class="mt-1 position-absolute top-50 start-50 translate-middle">
+                    {{ template "_internal/pagination.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

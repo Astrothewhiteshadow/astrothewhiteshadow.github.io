@@ -1,0 +1,27 @@
+{{ define "main" }}
+<main class="container">
+    <div class="row text-center">
+        <div class="col-lg-8 mx-auto">
+
+            <h1 class="my-5 print-mt-0">{{ .Title }}</h1>
+
+            {{ range (where .Paginator.Pages ".Params.unlisted" "!=" "true") }}
+            <a href="{{ .RelPermalink }}" class="text-decoration-none h-75">
+                <div
+                    class="d-flex p-3 hover-opacity card bg-body-tertiary text-body px-3 py-4 m-0 rounded-4 my-4 text-start">
+                    <p class="m-0">
+                        <strong class="d-block mb-1">{{ .Title }}</strong>
+                    </p>
+                </div>
+            </a>
+            {{ end }}
+
+            <div class="mt-4 py-4 position-relative">
+                <div class="mt-1 position-absolute top-50 start-50 translate-middle">
+                    {{ template "_internal/pagination.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{{ end }}

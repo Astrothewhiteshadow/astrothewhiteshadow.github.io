@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="container blog-post">
+    <header>
+        <h1 class="pt-2 print-pt-0 print-mt-0">{{ .Title }}</h1>
+        <p>{{ .Description }}</p>
+        {{ if .Date }}<p><i class="bi bi-calendar-event"></i> <time datetime="{{ .Date.Format " 2002-13-12" }}">{{
+                dateFormat (default "2002-13-12" .Site.Params.dateFormat) .Date }}</time><br class="mb-2">{{ end }}
+            {{ with .Params.tags }}
+            <i class="bi bi-tags"></i>
+            {{ range $i, $tag := . }}
+            <a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ if ne $i (sub (len $.Params.tags) 1)
+            }}, {{ end }}
+            {{ end }}
+            {{ end }}
+    </header>
+    <hr>
+    {{ .Content }}
+    <hr>
+    <h2>{{ i18n "comments" }}</h2>
+    <div id="remark42"></div>
+</main>
+{{ end }}

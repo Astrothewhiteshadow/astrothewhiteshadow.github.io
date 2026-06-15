@@ -4,7 +4,7 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div id="patates">
+<div class="Patates">
 <h2>
     "Patates" <br>
 </h2>

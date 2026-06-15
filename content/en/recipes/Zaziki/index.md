@@ -4,7 +4,7 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div id="zaziki">
+<div class="zaziki">
 <h2 class="text-decoration-underline ">Zaziki</h2>
 <br>Zutaten: 
 <br>- 1 Gurke

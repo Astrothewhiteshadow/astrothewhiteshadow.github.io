@@ -4,7 +4,7 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div id="scordalia">
+<div class="scordalia">
 <h2> <u> Scordalia </u> </h2>
 <br>Zutaten: 
 <br>Kartoffeln, gekocht und abgekühlt

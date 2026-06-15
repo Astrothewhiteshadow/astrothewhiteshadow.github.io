@@ -1,6 +1,32 @@
 baseURL = 'https://astrothewhiteshadow.github.io'
 title = 'astrothewhiteshadow'
+defaultContentLanguage = 'de'
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+[languages]
+
+  [languages.en]
+    contentDir = 'content/en'
+    languageName = 'English'
+    title = 'astrothewhiteshadow.en'
+    weight = 1
+
+  [languages.de]
+    contentDir = 'content/de'
+    languageName = 'deutsch'
+    title = 'astrothewhiteshadow.de'
+    weight = 2
+
+  [languages.jp]
+    contentDir = 'content/jp'
+    languageName = '日本語'
+    title = 'astrothewhiteshadow.jp'
+    weight = 3
+    
+  [languages.fr]
+    contentDir = 'content/fr'
+    languageName = 'Français'
+    title = 'astrothewhiteshadow.jp'
+    weight = 4

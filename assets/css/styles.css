@@ -115,22 +115,64 @@
 
 }
 
-
-
-
 @font-face {
-    font-family: 'genzsch_et_heyse_alternateRg';
-    src: url('/fonts/genzschetheyse/genzschetheysealt-webfont.woff2') format('woff2'),
-         url('/fonts/genzschetheyse/genzschetheysealt-webfont.woff') format('woff');
+    font-family: 'Fanwood Text';
+    src: local('Fanwood Text'),
+        url('/fonts/fanwood/fanwood_text-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Fanwood Text';
+    src: local('Fanwood Text Italic'),
+        url('/fonts/fanwood/fanwood_text_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nimbus Mono';
+    src: local('Nimbus Mono PS'),
+        url('/fonts/nimbusmono/nimbusmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nimbus Mono';
+    src: local('Nimbus Mono PS Italic'),
+        url('/fonts/nimbusmono/nimbusmono-oblique-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nimbus Mono';
+    src: local('Nimbus Mono PS Bold'),
+        url('/fonts/nimbusmono/nimbusmono-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nimbus Mono';
+    src: local('Nimbus Mono PS Bold Italic'),
+        url('/fonts/nimbusmono/nimbusmono-boldoblique-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
 }
 
 body {
     background-color: #000000;
-    font-family: 'comic_neuelight', sans-serif;
-    color: #8717f0;
+    font-family: 'Nimbus Mono', sans-serif;
+    color: #ac69ea;
 }
 
 .nav-link {
