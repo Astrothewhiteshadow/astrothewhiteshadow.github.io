@@ -41,6 +41,33 @@
                         {{end}}
                     </ul>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Art
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{ range .Site.Menus.Art}}
+                        <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
+                        
+                        {{end}}
+                    </ul>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dev
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{ range .Site.Menus.Dev}}
+                        <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
+                        
+                        {{end}}
+                    </ul>
+                </li>
+                
             </ul>
         </div>
     </div>
