@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar sticky-top navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -23,6 +23,21 @@
                     <ul class="dropdown-menu">
                         {{ range .Site.Menus.recipes}}
                         <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
+                        
+                        {{end}}
+                    </ul>
+                    
+                </li>
+            
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                        {{ range .Site.Menus.Blog}}
+                        <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
+                        
                         {{end}}
                     </ul>
                 </li>
