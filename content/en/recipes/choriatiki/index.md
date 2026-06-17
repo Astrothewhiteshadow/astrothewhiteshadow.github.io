@@ -1,9 +1,10 @@
 +++
-title = "choriatiki"
+title = "Choriatiki"
 menu = "recipes"
 type = "containered"
 +++
 
+<!-- 
 <div id="choriatiki">
 <h2> <u> Choriatiki </u> </h2>
 <br>Zutaten: 
@@ -39,4 +40,45 @@ type = "containered"
 <br>
 <img src="choriatiki.png" alt="Choriatiki">
 <br><i>eine Schüssel griechischer bauernsalat</i>
+</div>
+-->
+<div id="choriatiki">
+
+<h2>
+<u> <b> Choriatiki </b> </u> 
+</h2>
+
+<br><b>Ingredients:</b> 
+<br>Feta Cheese
+<br>some Olives
+<br>minimum 2 big Tomatoes
+<br>minimum half a cucumber
+<br>minimum 1 Paprika
+<br>some hot peppers for Taste (peperoni)
+<br>one mild red onion
+<br>some Basil for taste
+<br>a splash of greek red vine vinegar
+<br>a lot of Oregano
+<br>Olive Oil
+<br>1 Pinch Salt (for taste)
+<br>1 Pinch Pepper (for Taste)
+<br>
+<br> <b> Kitchen Utensils: </b>
+<br>A Knife
+<br>A bowl which is capable of Holding all the Salad your planning to make
+<br>Some Plates or other Utensils that you need for eating and mixing The Salad (Fork, Spoon, Chopsticks, a reasonably clean Stick, something Rod-shaped, Bare Hands)
+<br>
+<br>Garlic bread or roasted Bread in general are a great Match with Choriatiki!
+<br>Ideal on an Apetizer Plate with Scordalia and Zaziki!
+<br>
+<br> <b> Preparation: </b>
+<br>Cut thhe Tomatoes into pieces in approximately equal size and throw them into the Salad Bowl
+<br>Do the same with the Cucumber and throw the Pieces (which are hopefully small enough to fit in your Mouth) in the Bowl
+<br>Cut up the Paprika and throw it in the Bowl
+<br>Cut the red Onion in half, cut them into thin slices and also throw them into the salad bowl.
+<br>Then put enough Olives and Peperonis for your own preference in the bowl, put in a pinch of Salt and some freshly grinded  pepper and bury it all in oregano (in your own preference, if you want you cann also add in some Basil) Then add Vinegar and Oil for taste and stir.
+<br>Then put in the Feta Cheese (or the vegan alternative of your prefernce) and enjoy.
+<br>
+<img src="choriatiki.png" alt="Choriatiki">
+<br><i>a bowl of Greek Farmers Salad</i>
 </div>

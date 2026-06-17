@@ -5,22 +5,23 @@ type = "containered"
 +++
 
 <div class="scordalia">
-<h2> <u> Scordalia </u> </h2>
-<br>Zutaten: 
-<br>Kartoffeln, gekocht und abgekühlt
-<br>Knoblauch (desto mehr desto besser)
-<br>Olivenöl
-<br>1 Prise Salz
-<br>1 Prise Pfeffer
+
+<h2> 
+<u> <b> Scordalia </b> </u> 
+</h2>
+
+<br><b>Ingredients: </b>
+<br>Potatoes, cooked and chilled
+<br>Garlic (the more the merrier)
+<br>Olive Oil
+<br>a little Bit of greek red wine Vinegar
+<br>1 Pinch of Salt
+<br>1 Pinch of Pepper
 <br>
-<br>Zubereitung:
-<br>Kartoffeln kochen, anschließend abkühlen lassen und idealerweise im Kühlschrank komplett erkalten lassen (geht aber auch mit warmen Kartoffeln).
-<br>danach die Kartoffeln mit einer Gabel zerstoßen und immer mehr mit der Gabel zu einer teigigen Textur verkneten, dabei den Knoblauch entweder 
-<br>sehr fein geschnitten oder gemörsert/kleingestoßen hinzugeben, bis er eins mit der restlichen Kartoffelmasse geworden ist. Dazu geben wir etwas 
-<br>Olivenöl bis die Masse eine schöne goldgelbe Farbe erreicht hat und kneten weiter mit der Gabel (man erkennt dass man mit dem kneten fertig ist
-<br>daran, dass das Scordalia sich rückstandslos von der Schüssel löst). Zu guter letzt mit Salz und Pfeffer abschmecken und Ferttig ist das perfekte
-<br>Scordalia! 
+<br><b>Preparation:</b>
+<br>boil potatoes, peel them and let them cool in the Refridgerator (also works with warm Potatoes, but cooling them down before is recommended).
+<br>Mash the Potatoes till they reach a doughy texture and add in the grated or pressed Garlic in it, till its one with the Potato dough. Add in Olive Oil and the Vinegar till its mashed completely, which is visibly clear through seeing that it comes off clearly of the Bowl. Then Add Salt and Pepper to Taste and the Perfect Scordalia is ready for you to enjoy!
 <br><br><br><br><br><br><br><br><br><br>
 <img src="scordalia.png" alt="Scordalia">
-<br><i>eine köstliche Schüssel Scordalia</i>
+<br><i> a delicious Bowl of Scordalia! </i>
 </div>

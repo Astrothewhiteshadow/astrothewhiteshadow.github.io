@@ -15,7 +15,7 @@ defaultContentLanguage = 'de'
 
   [languages.de]
     contentDir = 'content/de'
-    languageName = 'deutsch'
+    languageName = 'Deutsch'
     title = 'astrothewhiteshadow.de'
     weight = 2
 

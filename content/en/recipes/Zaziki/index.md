@@ -5,21 +5,25 @@ type = "containered"
 +++
 
 <div class="zaziki">
-<h2 class="text-decoration-underline ">Zaziki</h2>
-<br>Zutaten: 
-<br>- 1 Gurke
-<br>- 1 Zitrone
-<br>- soviel Knoblauch wie möglich (mindestens 3 Zehen)
-<br>- 1 Kg Joghurt oder eine vegane Alternative (mit möglichst hohem Fettanteil)
-<br>- 1-2 EL Olivenöl
-<br>- Salz und Pfeffer zum abschmecken
-<br>Zubereitung:
-<br> 1. die Gurke schälen und in kleine Stücke verarbeiten (idealerweise mit einer Reibe)
-<br> 2. die Zitrone auspressen und bereithalten
-<br> 3. den Joghurt in das Gefäß der Wahl umgießen (idealerweise dem Gefäß in dem das Zaziki gelagert werden soll)
-<br> 4. die Zitrone dazugeben, dann den Knoblauch dazupressen und anschließend die geriebene Gurke und das Olivenöl hinzufügen
-<br> 5. zu guter letzt mit Salz und Pfeffer abschmecken und mit Brot, Pita oder anderen Gerichten genießen.
+
+<h2>
+<u> <b> Zaziki </b> </u>
+</h2>
+
+<br> <b> Ingredients: </b> 
+<br>- 1 Cucumber
+<br>- 1 Lemon
+<br>- as much Garlic as possible (at least 3 cloves)
+<br>- 1 Kg of Yoghurt or vegan Alternative
+<br>- 1-2 EL Olive Oil
+<br>- Salt and Pepper to Taste
+<br> <b> Preparation </b>
+<br> 1. Peel the Cucumber and Grate the Cucumber, Then press all of the liquid out of the cucumber pieces
+<br> 2. Squeeze The Lemon and keep the Lemon Juice for later
+<br> 3. put the yoghurt into the fitting vessel (ideally the one that you plan the zaziki to store in)
+<br> 4. put in the Lemon Juice, press in The Garlic and put in the grated Cucumber and add in the Olive Oil
+<br> 5. add in pepper and Salt to taste and enjoy with some Pitas or fresh Bread.
 <br><br><br><br><br><br><br><br><br><br>
 <img src="zaziki.png" alt="Zaziki">
-<br><i>eine erfrischende Schüssel Zaziki!</i>
+<br><i>a refreshing Bowl of Zaziki!</i>
 </div>

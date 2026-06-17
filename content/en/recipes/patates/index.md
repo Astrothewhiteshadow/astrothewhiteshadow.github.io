@@ -5,15 +5,20 @@ type = "containered"
 +++
 
 <div class="Patates">
+
 <h2>
-    "Patates" <br>
+    <u> <b> "Patates" </b> </u> <br>
 </h2>
-    <br> <b>Zutaten:</b> <br>
-    - Kartoffeln <br>
-    - Zitrone(n) <br>
-    - Petersilie <br>
-    - Knoblauch (nach Geschmack) <br>
-    - Salz und Pfeffer zum Abschmecken
+
+  <br> <b> Ingredients:</b> <br>
+    - Potatoes <br>
+    - Lemon(s) <br>
+    - Parseley <br>
+    - Garlic (to Taste) <br>
+    - Salt and Pepper to Taste
     <br> 
-    <img src="" alt="eine Schüssel tuerkische Patates">
+    <br> 
+    <b> Preparation: </b>
+    <br>
+    <img src="/static/img/patates.png" alt="a Bowl of turkish Patates">
 </div>

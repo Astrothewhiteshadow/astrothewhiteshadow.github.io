@@ -9,17 +9,17 @@ type = "containered"
 <div id="Tarot" class="py-5">
     <div class="tarot-cards" >
         <div class="tarot-card mx-auto " id="past">
-            <span>Die <br> Vergangenheit</span>
+            <span>The <br> Past</span>
             <img src="" alt="Tarot Card">
                 <p></p>
         </div>
         <div class="tarot-card mx-auto" id="present">
-            <span>Die <br> Gegenwart</span>
+            <span>The <br> Present</span>
             <img src="" alt="Tarot Card">
             <p></p>
         </div>
         <div class="tarot-card mx-auto" id="future">
-            <span>Die <br> Zukunft</span>
+            <span>The <br> Future</span>
             <img src="" alt="Tarot Card">
             <p></p>
         </div>
