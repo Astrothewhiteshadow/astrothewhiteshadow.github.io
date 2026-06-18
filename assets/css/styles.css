@@ -171,8 +171,12 @@
 
 body {
     background-color: #000000;
-    font-family: 'Nimbus Mono', sans-serif;
+    font-family: 'Fanwood Text', sans-serif;
     color: #ac69ea;
+}
+
+.blog {
+    font-family: 'Nimbus Mono', sans-serif;
 }
 
 .nav-link {

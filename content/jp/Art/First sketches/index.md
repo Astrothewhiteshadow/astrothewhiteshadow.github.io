@@ -5,7 +5,7 @@ type = "containered"
 tags = ["Kunst","Erste Skizzen"]
 +++
 
-<div class="Art">
+<div id="first-sketches">
 <h1> <u> Erste Skizzen </u> </h1>
 
 hier werden bald meine ersten Skizzen stehen 

@@ -4,17 +4,16 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div class="recipes" id="Patates">
-
+<div class="Patates">
 <h2>
-    <u> <b> "Patates" </b> </u> <br>
+    "Patates" <br>
 </h2>
     <br> <b>Zutaten:</b> <br>
     - Kartoffeln <br>
     - Zitrone(n) <br>
     - Petersilie <br>
     - Knoblauch (nach Geschmack) <br>
-    - Salz und Pfeffer zum Abschmecken <br> 
-    <b> Zubereitung: </b>
+    - Salz und Pfeffer zum Abschmecken
+    <br> 
     <img src="" alt="eine Schüssel tuerkische Patates">
 </div>

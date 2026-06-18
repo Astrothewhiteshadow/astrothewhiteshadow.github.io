@@ -4,8 +4,8 @@ menu = "Dev"
 type = "containered"
 +++
 
-<div class="Dev" id="Programmieren oder so">
-<h1><u> <b> Programmieren oder so </b> </u></h1>
+<div class="Programmieren oder so">
+<h1><u> Programmieren oder so </u></h1>
 <br/> 
 hier werden bald meine programmiersachen welche ich dokumentieren möchte stehen und die programmierprojekte welche ich anfangen will
 </div>

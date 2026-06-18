@@ -4,10 +4,9 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div class="recipes" id="kleinerdiktator">
-
+<div id="kleinerdiktator">
 <h2>
-    <u> <b> "Kleiner Diktator" </b> </u> <br>
+    "Kleiner Diktator" <br>
 </h2>
     <br> <b>Zutaten:</b> <br>
     1/3 Bitter lemon <br>
@@ -16,7 +15,6 @@ type = "containered"
     Schuss Limettensaft <br>
     2x Schuss Waldmeister <br>
     Schuss Blue Curaçao Blue virgin <br>
-    Eiswürfel (eine Menge) <br>
     <br> <b>Zubereitung:</b>
     <br> 
     <img src="/static/img/kleinerdiktator.png" alt="ein kleiner Diktator">

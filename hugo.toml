@@ -28,5 +28,5 @@ defaultContentLanguage = 'de'
   [languages.fr]
     contentDir = 'content/fr'
     languageName = 'Français'
-    title = 'astrothewhiteshadow.jp'
+    title = 'astrothewhiteshadow.fr'
     weight = 4

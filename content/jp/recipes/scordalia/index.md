@@ -4,17 +4,16 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div class="recipes" id="scordalia">
-
-<h2> <u> <b> Scordalia </b> </u> </h2>
-<br><b>Zutaten:</b> 
+<div class="scordalia">
+<h2> <u> Scordalia </u> </h2>
+<br>Zutaten: 
 <br>Kartoffeln, gekocht und abgekühlt
 <br>Knoblauch (desto mehr desto besser)
 <br>Olivenöl
 <br>1 Prise Salz
 <br>1 Prise Pfeffer
 <br>
-<br> <b>Zubereitung:</b>
+<br>Zubereitung:
 <br>Kartoffeln kochen, anschließend abkühlen lassen und idealerweise im Kühlschrank komplett erkalten lassen (geht aber auch mit warmen Kartoffeln).
 <br>danach die Kartoffeln mit einer Gabel zerstoßen und immer mehr mit der Gabel zu einer teigigen Textur verkneten, dabei den Knoblauch entweder 
 <br>sehr fein geschnitten oder gemörsert/kleingestoßen hinzugeben, bis er eins mit der restlichen Kartoffelmasse geworden ist. Dazu geben wir etwas 

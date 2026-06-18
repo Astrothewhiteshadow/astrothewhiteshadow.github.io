@@ -4,10 +4,9 @@ menu = "recipes"
 type = "containered"
 +++
 
-<div class="recipes" id="choriatiki">
-
-<h2> <u> <b> Choriatiki </b> </u> </h2>
-<br><b>Zutaten:</b> 
+<div id="choriatiki">
+<h2> <u> Choriatiki </u> </h2>
+<br>Zutaten: 
 <br>Schafskäse (wahlweise vegan)
 <br>einige oliven
 <br>mindestens 2 große Tomaten
@@ -22,7 +21,7 @@ type = "containered"
 <br>1 Prise Salz
 <br>1 Prise Pfeffer
 <br>
-<br> <b> Arbeitsmaterialien: </b>
+<br>Arbeitsmaterialien:
 <br>Ein Messer
 <br>eine der Menge an salat angemessene Schüssel (oder ein anderweitiger möglichst eingedellter gegenstand mit einem Fassungsvermögen entspricht um salat darin zu machen)
 <br>wahlweise geschirr zum mischen und verspeisen des salats (Gabel, Löffel, Stäbchen, ein halbwegs sauberer stock irgendetwas in länglicher form, Hände)
@@ -30,7 +29,7 @@ type = "containered"
 <br>Dazu eignet sich insbesondere auch Knoblauchbaguette oder generell geröstetes brot!
 <br>ideal auch mit einem vorspeisenteller zu reichen mit beispielsweise zaziki und scordalia
 <br>
-<br> <b> Zubereitung: </b>
+<br>Zubereitung:
 <br>die Tomaten als erstes in der hand in etwa gleichförmige stücke schneiden und in die Salatschüssel werfen
 <br>genauso mit der Gurke verfahren und die (hoffentlich mundgroßen) stücke dazu in die salatschüssel werfen
 <br>eine Paprika an den 3 vorgeformten schlitzen einschneiden und jetzt (!ohne kerne und stiel) von innen entweder in streifen oder kleine (mundgroße) quadrate schneiden und mit in die salatschüssel werfen
