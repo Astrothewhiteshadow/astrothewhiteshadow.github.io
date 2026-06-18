@@ -1,12 +1,12 @@
 +++
 title = "First sketches"
-menu = "Art"
-type = "containered"
+menu = "art"
 tags = ["Kunst","Erste Skizzen"]
 +++
 
-<div class="Art">
-<h1> <u> Erste Skizzen </u> </h1>
-
-hier werden bald meine ersten Skizzen stehen 
+<div class="art" id = "first-sketches">
+<div class="art-head"> <u> Erste Skizzen </u> </div>
+<div class="art-body">
+<div class="art-first">H</div> ier werden bald meine  ersten Skizzen stehen. 
+</div>
 </div>

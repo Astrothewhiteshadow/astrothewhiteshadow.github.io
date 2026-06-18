@@ -3,7 +3,6 @@ type = "blog"
 title = "Blog Announcement"
 menu = "Blog"
 tags = ["Anouncement","Blog"]
-date = "2026-16-06"
 +++
 
 <div class="blog-announcement">

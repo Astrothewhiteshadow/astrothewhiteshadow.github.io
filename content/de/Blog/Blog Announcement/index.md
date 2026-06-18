@@ -1,9 +1,8 @@
 +++
 type = "blog"
 title = "Blog Announcement"
-menu = "Blog"
-tags = ["Anouncement","Blog"]
-date = "2026-16-06"
+menu = "blog"
+tags = ["Announcement","Blog","Ankündigung"]
 +++
 
 <div class="blog" id="blog-announcement">

@@ -1,6 +1,7 @@
 +++
 title = "Blog Plan"
-menu = "Blog"
+menu = "blog"
+tags =["Plan","Blog"]
 +++
 
 <div class="blog" id="blog-plan">

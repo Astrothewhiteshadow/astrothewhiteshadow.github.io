@@ -35,7 +35,7 @@
                         Blog
                     </a>
                     <ul class="dropdown-menu">
-                        {{ range .Site.Menus.Blog}}
+                        {{ range .Site.Menus.blog}}
                         <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
                         
                         {{end}}
@@ -48,7 +48,7 @@
                         Art
                     </a>
                     <ul class="dropdown-menu">
-                        {{ range .Site.Menus.Art}}
+                        {{ range .Site.Menus.art}}
                         <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
                         
                         {{end}}
@@ -61,7 +61,7 @@
                         Dev
                     </a>
                     <ul class="dropdown-menu">
-                        {{ range .Site.Menus.Dev}}
+                        {{ range .Site.Menus.dev}}
                         <li><a class="dropdown-item" href="{{.URL}}">{{.Name}}</a></li>
                         
                         {{end}}

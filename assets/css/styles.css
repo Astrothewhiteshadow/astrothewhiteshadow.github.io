@@ -175,6 +175,27 @@ body {
     color: #ac69ea;
 }
 
+.art-head {
+    font-family:mutlu_ornamental;
+    color: #00ddff;
+    font-size: 10em;
+    text-align: center;
+}
+
+.art-body {
+    text-align: left;
+    margin-top: 70px;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 0.9em;
+}
+
+.art-first {
+    font-family: 'dearestregular', serif;
+    font-size: 5em;
+    display: inline-block;
+}
+
 .blog {
     font-family: 'Nimbus Mono', sans-serif;
 }
